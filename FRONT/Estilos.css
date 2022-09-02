@@ -15,77 +15,16 @@ body {
 }
 
 /* css index.html */
-nav{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px 8%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-nav .logo{
-    width: 80px;
-}
 
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 40px;
-}
+/* section persona que trabajrá el banner */
+/* fin section persona que trabajrá el banner */
 
-nav ul li a{
-    text-decoration: none;
-    font-size: 17px;
-    color: #000;
-    
-}
-.banner_descripcion{
-   text-align: center;
+/* section  2 persona que trabajrapa wl video  */
+/* fin section  2 persona que trabajará el video  */
 
-    
-}
+/* section 3 persona que trabará el mapara y los datos de contacto */
 
-.banner_descripcion h1{
-    font-size: 100px;
-    font-weight: 600;
-    padding-top: 130px;
-}
-
-
-.back-video{
-    position:absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
-.contacto {
-    border: 2px solid #fff;
-    text-decoration: none;
-    display: inline-block;
-    color: aliceblue;
-    font-size: 24px;
-    padding: 14px 70px;
-    border-radius: 6px;  
-    margin-top: 20px;
-    
-
-}
-.contacto:hover{
-    background: #a8ff78;
-    background: -webkit-linear-gradient(to left, #78ffd6, #a8ff78);
-    background: linear-gradient(to left, #78ffd6, #a8ff78);
-    color: #000;
-    font-weight: bold;
-}
-
-.banner p {
-    opacity: 0.8;
-    margin: 2em 0;
-    font-weight: bold;
-    font-size: 30px;
-}
+/* fin section 3 persona que trabará el mapara y los datos de contacto */
 
 /* fin css index.html */
 .registro {
@@ -127,7 +66,7 @@ nav ul li a{
     font-size: 14px;
     line-height: 40px;
     color: aliceblue;
-    
+
 }
 
 
