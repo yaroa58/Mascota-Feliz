@@ -12,8 +12,6 @@ body {
     background: linear-gradient(to left, #78ffd6, #a8ff78);
     font-family: 'Poppins', sans-serif;
 
-
-
 }
 
 /*==> css index.html <==*/
@@ -21,33 +19,97 @@ body {
 /* ----------------------------------------------------------------------- */
 
 /* section persona que trabajrá el banner */
+header {
+    text-align: right;
+    padding: 25px 0;
+    background-color: #5a5744;
 
-.banner{
-    list-style: none;
-    padding: 0;
-    background: transparent;
-    width: 35%;
-    max-width: 1000px;
-    margin: auto;
-    float: right;
 }
 
-.banner a{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
+.slogan {
+    position: absolute;
     display: block;
+    top: -1%;
+    left: 0%;
+    height: 150px;
+}
+
+nav a {
+    text-decoration: none;
     display: inline-block;
+    color: #fff;
+    margin: 0 30px;
+    padding: 0 25px;
     
 }
 
-.banner a:hover{
-    background: #ef8354;
+nav a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+
+.encabezado-img {
+    
+    background-color: #5a5744;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+    background-repeat: no-repeat;
+    
+}
+.encabezado-img img{
+    position: absolute;
+    display: inline;
+    line-height: 0px;
+    height: 350px;
+    right: 0;
+    top: 45px;
+  
+}
+.encabezado-img .slice{
+    position: absolute;
+    left: 0;
+    top: 210px;
+}
+.encabezado-img .slice2{
+    width: 1920px;
+    height: 27px;
+    margin-bottom: 0;
+    top: 545px;
+}
+.encabezado-img h1 {
+    font-size: 40px;
+    padding: 30px 0;
+    z-index: 1;  
+
+/*==> css index.html <==*/
 
 }
 
 
-/* fin section persona que trabajrá el banner */
+.encabezado-img .img {
+    font-size: 20px;
+    font-weight: bold;
+    border: solid 1px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+    padding: 4px 12px;
+    border-radius: 6px;
+
+}
+
+
+.encabezado-img .img:hover {
+    transition: 3s;
+    background: linear-gradient(to left, #78ffd6, #a8ff78);
+}
+
 
 /* ----------------------------------------------------------------------- */
 
@@ -86,7 +148,6 @@ body {
 .controls {
     width: 100%;
     background: #24303c;
-
     padding: 10px;
     border-radius: 6px;
     margin-bottom: 10px;
@@ -101,7 +162,7 @@ body {
     font-size: 14px;
     line-height: 40px;
     color: aliceblue;
-    
+
 }
 
 
