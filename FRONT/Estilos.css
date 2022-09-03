@@ -38,14 +38,16 @@ nav a {
     text-decoration: none;
     display: inline-block;
     color: #fff;
-    margin: 0 30px;
-    padding: 0 25px;
+    margin: 0 20px;
+    padding: 0 20px;
     
 }
 
 nav a:hover {
-    text-decoration: underline;
+    transition: 0.5s;
+    background: #ef8354;
     color: #fff;
+    
 }
 
 
@@ -106,8 +108,8 @@ nav a:hover {
 
 
 .encabezado-img .img:hover {
-    transition: 3s;
-    background: linear-gradient(to left, #78ffd6, #a8ff78);
+    transition: 0.5s;
+    background: #ef8354;
 }
 
 
