@@ -22,10 +22,19 @@ body {
 header {
     text-align: right;
     padding: 25px 0;
-    background-color: #645c20;
-  
+    background-color: #8d4925;
+
 }
-nav a{
+
+.slogan {
+    position: absolute;
+    display: block;
+    top: -1%;
+    left: 0%;
+    height: 150px;
+}
+
+nav a {
     text-decoration: none;
     display: inline-block;
     color: #fff;
@@ -34,12 +43,14 @@ nav a{
     border-radius: 6px;
 
 }
-nav a:hover{
+
+nav a:hover {
     background-color: #000;
     color: #fff;
 }
-.encabezado-img{
-    background-color: #645c20;
+
+.encabezado-img {
+    background-color: #8d4925;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -47,23 +58,26 @@ nav a:hover{
     align-items: center;
     color: #fff;
 }
-.encabezado-img h1{
+
+.encabezado-img h1 {
     font-size: 30px;
     padding: 20px 0;
 
 }
-.encabezado-img .img{
+
+.encabezado-img .img {
     font-size: 15px;
     border: solid 1px;
-    text-decoration: none;    
+    text-decoration: none;
     color: #000;
-    
-    letter-spacing: 2px;   
+
+    letter-spacing: 2px;
     padding: 4px 12px;
     border-radius: 6px;
-        
+
 }
-.encabezado-img .img:hover{
+
+.encabezado-img .img:hover {
     transition: 3s;
     background: linear-gradient(to left, #78ffd6, #a8ff78);
 }
