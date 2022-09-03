@@ -12,6 +12,8 @@ body {
     background: linear-gradient(to left, #78ffd6, #a8ff78);
     font-family: 'Poppins', sans-serif;
 
+
+
 }
 
 /*==> css index.html <==*/
@@ -19,6 +21,32 @@ body {
 /* ----------------------------------------------------------------------- */
 
 /* section persona que trabajrá el banner */
+
+.banner{
+    list-style: none;
+    padding: 0;
+    background: transparent;
+    width: 35%;
+    max-width: 1000px;
+    margin: auto;
+    float: right;
+}
+
+.banner a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    display: inline-block;
+    
+}
+
+.banner a:hover{
+    background: #ef8354;
+
+}
+
+
 /* fin section persona que trabajrá el banner */
 
 /* ----------------------------------------------------------------------- */
