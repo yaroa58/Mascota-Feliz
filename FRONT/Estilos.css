@@ -22,7 +22,7 @@ body {
 header {
     text-align: right;
     padding: 25px 0;
-    background-color: #8d4925;
+    background-color: #5a5744;
 
 }
 
@@ -39,43 +39,67 @@ nav a {
     display: inline-block;
     color: #fff;
     margin: 0 30px;
-    padding: 4px 12px;
-    border-radius: 6px;
-
+    padding: 0 25px;
+    
 }
 
 nav a:hover {
-    background-color: #000;
+    text-decoration: underline;
     color: #fff;
 }
 
 .encabezado-img {
-    background-color: #8d4925;
-    height: 300px;
+    background-color: #5a5744;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #fff;
+    
+    background-repeat: no-repeat;
+    
 }
-
+.encabezado-img img{
+    position: absolute;
+    display: inline;
+    line-height: 0px;
+    height: 350px;
+    right: 0;
+    top: 45px;
+  
+}
+.encabezado-img .slice{
+    position: absolute;
+    left: 0;
+    top: 210px;
+}
+.encabezado-img .slice2{
+    width: 1920px;
+    height: 27px;
+    margin-bottom: 0;
+    top: 545px;
+}
 .encabezado-img h1 {
-    font-size: 30px;
-    padding: 20px 0;
+    font-size: 40px;
+    padding: 30px 0;
+    z-index: 1;  
 
 }
+
 
 .encabezado-img .img {
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
     border: solid 1px;
     text-decoration: none;
     color: #000;
-
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding: 4px 12px;
     border-radius: 6px;
 
 }
+
 
 .encabezado-img .img:hover {
     transition: 3s;
