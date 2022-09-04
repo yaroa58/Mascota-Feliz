@@ -27,8 +27,9 @@ header {
 }
 
 .menu-list{
-    margin-top: 100px;
-    text-align: center;
+    margin-top: -10px;
+    margin-right: 70px;
+    text-align: right;
 
 }
 .list-items{
@@ -37,8 +38,8 @@ header {
 }
 .botones{
     text-decoration: none;
-    color: inherit;
-    padding: 10px;
+    color: #fff;
+    padding: 15px;
     font-size: 1.1rem;
     position: relative;
 
@@ -47,7 +48,7 @@ header {
     content: "";
     width: 0;
     height: 4px;
-    background-color: cadetblue;
+    background-color: #ef8354;
     position:absolute;
     bottom: 0;
     right: 50%;
