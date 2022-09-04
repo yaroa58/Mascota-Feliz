@@ -26,6 +26,39 @@ header {
 
 }
 
+.menu-list{
+    margin-top: 100px;
+    text-align: center;
+
+}
+.list-items{
+    display: inline-block;
+    list-style: none;
+}
+.botones{
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    font-size: 1.1rem;
+    position: relative;
+
+}
+.botones::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: cadetblue;
+    position:absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+
+}
+.botones:hover:after{
+    width: 100%;
+    right: 0;
+}
 .slogan {
     position: absolute;
     display: block;
@@ -34,21 +67,6 @@ header {
     height: 150px;
 }
 
-nav a {
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    margin: 0 20px;
-    padding: 0 20px;
-    
-}
-
-nav a:hover {
-    transition: 0.5s;
-    background: #ef8354;
-    color: #fff;
-    
-}
 
 
 .encabezado-img {
