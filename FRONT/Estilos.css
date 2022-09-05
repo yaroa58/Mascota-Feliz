@@ -264,17 +264,17 @@ nav a:hover {
     font-family: 'Open Sans', sans-serif;
     color: aliceblue;
     box-shadow: 7px 13px 37px #000;
- }
+}
  
- .form-register12 h4 {
+.form-register12 h4 {
     font-size: 24px;
     margin-bottom: 20px;
     letter-spacing: 1px;
     color: #fff;
     text-align: center;
- }
+}
  
- .controls{
+.controls{
     width: 100%;
     background: #24303c;
     padding: 10px;
@@ -287,7 +287,7 @@ nav a:hover {
  
  
  
- .form-register12 p{
+.form-register12 p{
  
     height: 40px;
     text-align: center;
@@ -295,24 +295,24 @@ nav a:hover {
     line-height: 40px;
     color: aliceblue;
  
- }
+}
  
- .form-register12 a{
+.form-register12 a{
     color: #fff;
     margin: auto;
     font-size: 14px;
     text-decoration: none;
     border: none;
  
- }
+}
  
- .form-register12 a:hover{
+.form-register12 a:hover{
     color: white;
     text-decoration: underline;
  
- }
+}
  
- .form-register12 .botons {
+.form-register12 .botons {
     width: 100%;
     background: linear-gradient(to left, #78ffd6, #a8ff78);
     border: none;
@@ -327,4 +327,4 @@ nav a:hover {
  
  
  
- }
+}
