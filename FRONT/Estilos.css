@@ -251,3 +251,80 @@ nav a:hover {
         border-color: #000;
     }
 }
+
+/* estilo consultar mascota */
+
+.form-register12{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    box-shadow: 7px 13px 37px #000;
+ }
+ 
+ .form-register12 h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+ }
+ 
+ .controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #a8ff78;
+    font-size: 15px;
+    color: aliceblue;
+}
+ 
+ 
+ 
+ .form-register12 p{
+ 
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    color: aliceblue;
+ 
+ }
+ 
+ .form-register12 a{
+    color: #fff;
+    margin: auto;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+ 
+ }
+ 
+ .form-register12 a:hover{
+    color: white;
+    text-decoration: underline;
+ 
+ }
+ 
+ .form-register12 .botons {
+    width: 100%;
+    background: linear-gradient(to left, #78ffd6, #a8ff78);
+    border: none;
+    padding: 12px;
+    color: #000;
+    margin: 16px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+ 
+ 
+ 
+ }
