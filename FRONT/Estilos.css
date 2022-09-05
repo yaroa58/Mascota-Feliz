@@ -32,8 +32,20 @@ header {
     text-align: right;
 
 }
+.menu-list > li{
+    float: right;
+}
+.menu-list li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu-list li:hover > ul{
+    display: block;
+}
 .list-items{
-    display: inline-block;
+    display: block;
     list-style: none;
 }
 .botones{
@@ -59,6 +71,12 @@ header {
 .botones:hover:after{
     width: 100%;
     right: 0;
+}
+
+.botones-registros{
+    right: 0;
+    text-decoration: none;
+    
 }
 .slogan {
     position: absolute;
