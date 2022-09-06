@@ -274,13 +274,14 @@ nav a:hover {
     
     .consulta .boton {
     width: 100%;
-    background: #FDC830;
-    background: -webkit-linear-gradient(to right, #F37335, #FDC830);
-    background: linear-gradient(to right, #F37335, #FDC830);
+    background: #a8ff78;
+    background: -webkit-linear-gradient(to left, #78ffd6, #a8ff78);
+    background: linear-gradient(to left, #78ffd6, #a8ff78);
     border: none;
     padding: 12px;
-    color: white;
+    color: black;
     font-size: 18px;
+    cursor: pointer;
     }
 
 /* Estilos de consultar mascota */
