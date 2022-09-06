@@ -26,6 +26,61 @@ header {
 
 }
 
+.menu-list{
+    margin-top: -10px;
+    margin-right: 70px;
+    text-align: right;
+
+}
+.menu-list > li{
+    /* float: left; */
+    /* right: 0; */
+    display: inline-block;
+}
+.menu-list li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu-list li:hover > ul{
+    display: block;
+}
+.list-items{
+    display: block;
+    list-style: none;
+}
+.botones{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.1rem;
+    position: relative;
+
+}
+.botones::after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: #ef8354;
+    position:absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+
+}
+.botones:hover:after{
+    width: 100%;
+    right: 0;
+}
+
+.botones-registros{
+    right: 0;
+    text-decoration: none;
+    
+}
+
 .slogan {
     position: absolute;
     display: block;
@@ -34,21 +89,6 @@ header {
     height: 150px;
 }
 
-nav a {
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    margin: 0 20px;
-    padding: 0 20px;
-    
-}
-
-nav a:hover {
-    transition: 0.5s;
-    background: #ef8354;
-    color: #fff;
-    
-}
 
 
 .encabezado-img {
@@ -75,6 +115,7 @@ nav a:hover {
 }
 .encabezado-img .slice{
     position: absolute;
+    width: 400px;
     left: 0;
     top: 210px;
 }
@@ -82,17 +123,26 @@ nav a:hover {
     width: 1920px;
     height: 27px;
     margin-bottom: 0;
-    top: 545px;
+    top: 541px;
+    z-index: 1;
 }
-/* .mascota{
-    position: relative;
-    display: contents;
-    width: 303px;
-    left: 30%;
-    top: 30%;
+.perro{
+    position: absolute;
+    width: 350px;
+    right: 0%;
+    top:33%;
     z-index: 1;
     
-} */
+    
+    
+}
+.mascota2{
+    position: absolute;
+    width: 400px;
+    right: 450px;
+    top: 10px;
+    
+}
 .encabezado-img h1 {
     font-size: 40px;
     padding: 30px 0;
