@@ -138,10 +138,10 @@ header {
 }
 .mascota2{
     position: absolute;
-    width: 450px;
-    right: 150px;
-    top: 50px;
-    z-index: 0;
+    width: 400px;
+    right: 450px;
+    top: 10px;
+    
 }
 .encabezado-img h1 {
     font-size: 40px;
