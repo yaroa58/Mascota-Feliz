@@ -81,8 +81,9 @@ header {
     text-decoration: none;
     float: left;
     
-    margin-top: 7px;
-    padding-top: 4px;
+    margin: 7px 6px;
+     /* margin-top: 7px; */
+    /* padding-top: 4px;  */
 
     
 }
