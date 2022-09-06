@@ -75,11 +75,29 @@ header {
     right: 0;
 }
 
-.botones-registros{
-    right: 0;
+.botones-registros a{
+    
+    text-align: center;
+    color: #fff;
     text-decoration: none;
+    float: left;
+    margin-top: 7px;
+    padding-top: 5px;
     
 }
+.botones-registros:hover{
+    background-color: #ef8354;
+    transition: 0.7s;
+    color: #000; 
+    
+   
+}
+/* .botones-registros:hover a{
+  
+    color: #000; 
+    
+   
+} */
 
 .slogan {
     position: absolute;
@@ -100,7 +118,6 @@ header {
     justify-content: center;
     align-items: center;
     color: #fff;
-    
     background-repeat: no-repeat;
     
 }
