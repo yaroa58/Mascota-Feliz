@@ -77,18 +77,20 @@ header {
 
 .botones-registros a{
     
-    text-align: center;
     color: #fff;
     text-decoration: none;
     float: left;
+    
     margin-top: 7px;
-    padding-top: 5px;
+    padding-top: 4px;
+
     
 }
 .botones-registros:hover{
     background-color: #ef8354;
     transition: 0.7s;
     color: #000; 
+    border-radius: 4px;
     
    
 }
