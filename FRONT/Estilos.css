@@ -64,7 +64,7 @@ header {
     height: 4px;
     background-color: #ef8354;
     position:absolute;
-    bottom: 0;
+    bottom: 7px;
     right: 50%;
     transition: all .5s;
     will-change: width;
