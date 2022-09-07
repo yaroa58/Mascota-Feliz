@@ -77,18 +77,21 @@ header {
 
 .botones-registros a{
     
-    text-align: center;
     color: #fff;
     text-decoration: none;
     float: left;
-    margin-top: 7px;
-    padding-top: 5px;
+    
+    margin: 7px 6px;
+     /* margin-top: 7px; */
+    /* padding-top: 4px;  */
+
     
 }
 .botones-registros:hover{
     background-color: #ef8354;
     transition: 0.7s;
     color: #000; 
+    border-radius: 4px;
     
    
 }
@@ -277,7 +280,11 @@ header {
     font-size: 15px;
     color: aliceblue;
 }
-
+.formulario{
+    width: 100%;
+    margin: auto;
+  
+}
 .registro p {
     height: 40px;
     text-align: center;
