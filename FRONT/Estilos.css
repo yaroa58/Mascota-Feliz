@@ -269,29 +269,7 @@ header {
     text-align: center;
 
 }
-.container_background_triangle{
-    max-width: 1200px;
-    height: 600px;
-    margin: auto;
-    background: green;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50,-50%);
-}
 
-.triangle{
-    width: 300px;
-    height: 300px;
-    background: red;
-    position: absolute;
-    transform: rotate(45deg);
-
-}
-/* https://www.youtube.com/watch?v=zQZOOCHTP0s */
-.triangle{
-
-}
 .controls {
     width: 100%;
     background: #24303c;
