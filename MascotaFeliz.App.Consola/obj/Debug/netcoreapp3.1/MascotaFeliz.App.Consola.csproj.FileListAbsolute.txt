@@ -66,3 +66,5 @@ C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\Ma
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.dll
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.pdb
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.genruntimeconfig.cache
+D:\Mascota-Feliz\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.dll
+D:\Mascota-Feliz\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.pdb
