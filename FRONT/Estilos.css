@@ -195,6 +195,130 @@ header {
 /* ----------------------------------------------------------------------- */
 
 /* section  2 persona que trabajrapa wl video  */
+.video{
+    background: linear-gradient(to right,#ef8354,#F6A126);
+    position: relative;
+    border-radius: 2px;
+    
+    
+
+}
+
+.video .s{
+    border: solid 10px;
+}
+
+.video .burbujas{
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #f3bf75;
+    opacity: .10;
+
+    position: absolute;
+    bottom: -150;
+    left: 5%;
+
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbujas:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.burbujas:nth-child(2){
+    width: 60px;
+    height: 60px;
+    left: 15%;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+.burbujas:nth-child(3){
+    width: 75px;
+    height: 75px;
+    left: 10%;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+.burbujas:nth-child(4){
+    width: 30px;
+    height: 30px;
+    left: 2%;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.burbujas:nth-child(5){
+    width: 40px;
+    height: 40px;
+    left: 22%;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+.burbujas:nth-child(6){
+    width: 80px;
+    height: 80px;
+    left: 70%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.burbujas:nth-child(7){
+    width: 60px;
+    height: 60px;
+    left: 80%;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+.burbujas:nth-child(8){
+    width: 75px;
+    height: 75px;
+    left: 90%;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+.burbujas:nth-child(9){
+    width: 30px;
+    height: 30px;
+    left: 100%;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.burbujas:nth-child(10){
+    width: 40px;
+    height: 40px;
+    left: 120%;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 65vh;
+        opacity: 0;
+    }
+
+}
+
+
 /* fin section  2 persona que trabajará el video  */
 
 /* ----------------------------------------------------------------------- */
