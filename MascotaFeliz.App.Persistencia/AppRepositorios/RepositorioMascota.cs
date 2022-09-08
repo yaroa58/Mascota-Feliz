@@ -25,12 +25,12 @@ namespace MascotaFeliz.App.Persistencia
 
         public Mascota AddMascota(Mascota mascota)
         {
-            var duenoAdicionado = _appContext.Duenos.Add(mascota);
+            var mascotaAdicionado = _appContext.Duenos.Add(mascota);
             _appContext.SaveChanges();
-            return duenoAdicionado.Entity;
+            return mascotaAdicionado.Entity;
         }
 
-        public void DeleteDueno(int idMascota)
+        public void DeleteMascota(int idMascota)
         {
             var mascotaEncontrado = _appContext.Duenos.FirstOrDefault(d => d.Id == idMascota);
             if (mascotaEncontrado == null)
