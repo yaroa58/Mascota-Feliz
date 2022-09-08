@@ -73,9 +73,9 @@ namespace MascotaFeliz.App.Persistencia
             if (mascotaEncontrado != null)
             {
                 mascotaEncontrado.Nombres = mascota.Nombres;
-                mascotaEncontrado.Apellidos = mascota.Color;
-                mascotaEncontrado.Direccion = mascota.Especie;
-                mascotaEncontrado.Telefono = mascota.Raza;
+                mascotaEncontrado.Color = mascota.Color;
+                mascotaEncontrado.Especie = mascota.Especie;
+                mascotaEncontrado.Raza = mascota.Raza;
                 _appContext.SaveChanges();
             }
             return mascotaEncontrado;
