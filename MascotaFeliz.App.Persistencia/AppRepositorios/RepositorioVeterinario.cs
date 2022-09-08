@@ -6,14 +6,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MascotaFeliz.App.Persistencia
 {
-    public class RepositorioVeterinario : IRepositorioVeterinario
+    public class RepositorioVeterinario:IRepositorioVeterinario
     {
          /// <summary>
         /// Referencia al contexto de Dueno
         /// </summary>
         private readonly AppContext _appContext;
         /// <summary>
-        /// Metodo Constructor Utiiza 
+        /// Metodo Constructor Utiliza 
         /// Inyeccion de dependencias para indicar el contexto a utilizar
         /// </summary>
         /// <param name="appContext"></param>//
@@ -21,18 +21,20 @@ namespace MascotaFeliz.App.Persistencia
 
         public RepositorioVeterinario (AppContext appContext)
         {
-            _appContext=appContext
+            _appContext=appContext;
 
         }
 
         public Veterinario AddVeterinario(Veterinario veterinario)
         {
-            var VeterinarioAdicionado=_appContext.Veterinarios.Add(veterinario)
+            var VeterinarioAdicionado=_appContext.Veterinarios.Add(veterinario);
             _appContext.SaveChanges();
             return VeterinarioAdicionado.Entity;
         }
-        void Veterinario DeleteVeterinario(int idVeterinario)
-        {   var veterinarioEncontrado=_appContext.Veterinarios.FirstOrDefault(d => d.Id == idVeterinario);
+
+        public void  DeleteVeterinario(int idVeterinario)
+        {  
+             var veterinarioEncontrado=_appContext.Veterinarios.FirstOrDefault(d => d.Id == idVeterinario);
             if(veterinarioEncontrado == null)
                return;
                _appContext.Veterinarios.Remove(veterinarioEncontrado);
@@ -78,7 +80,7 @@ namespace MascotaFeliz.App.Persistencia
 
         public Veterinario GetVeterinario(int IdVeterinario)
         {
-            return _appContext.Veterinarios.FirstOrDefault(d => d.Id == IdVeterinario);
+            return _appContext.Veterinarios.FirstOrDefault(d => d.Id == idVeterinario);
         }
 
 
