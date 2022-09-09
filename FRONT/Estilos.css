@@ -362,9 +362,9 @@ header {
     padding: 15px;
     font-size: 15px;
     outline: 0px;
-    border: none;
+    border: solid;
     border-radius: 3px;
-    background: orange;
+    background: linear-gradient(to left, #78ffd6, #a8ff78);
     cursor: pointer;
 }
 
