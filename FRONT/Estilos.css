@@ -353,7 +353,7 @@ header {
     border-radius: 3px;
 }
 .contactos form textarea{
-    max-width: 500 px ;
+    max-width: 50px;
     min-width: 500px;
     min-height: 140px;
     max-height: 140px;
@@ -365,6 +365,7 @@ header {
     border: none;
     border-radius: 3px;
     background: orange;
+    cursor: pointer;
 }
 
 
