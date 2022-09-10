@@ -25,14 +25,14 @@ namespace MascotaFeliz.App.Persistencia
 
         public Historia AddHistoria(Historia historia)
         {
-            var HistoriaAdicionada = _appContext.Historia.Add(historia);
+            var HistoriaAdicionada = _appContext.Historias.Add(historia);
             _appContext.SaveChanges();
             return  HistoriaAdicionada.Entity;
         }
 
         public void DeleteHistoria(int IdHistoria)
         {
-            var HistoriaEncontrada = _appContext.Historia.FirstOrDefault(d => d.Id == IdHistoria);
+            var HistoriaEncontrada = _appContext.Historias.FirstOrDefault(d => d.Id == IdHistoria);
             if (HistoriaEncontrada == null)
                 return;
             _appContext.Historias.Remove(HistoriaEncontrada);
@@ -44,18 +44,7 @@ namespace MascotaFeliz.App.Persistencia
             return GetAllHistorias_();
         }
 
-        public IEnumerable<Historia> GetHistoriasPorFiltro(string filtro)
-        {
-            var historias = GetAllHistorias(); // Obtiene todos los saludos
-            if (historias != null)  //Si se tienen saludos
-            {
-                if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
-                {
-                    historias = historias.Where(s => s.Nombres.Contains(filtro));
-                }
-            }
-            return historias;
-        }
+////////////////// filtrar por filtro
 
         public IEnumerable<Historia> GetAllHistorias_()
         {
@@ -69,7 +58,7 @@ namespace MascotaFeliz.App.Persistencia
 
         public Historia UpdateHistoria(Historia historia)
         {
-            var HistoriaEncontrada = _appContext.Historia.FirstOrDefault(d => d.Id == historia.Id);
+            var HistoriaEncontrada = _appContext.Historias.FirstOrDefault(d => d.Id == historia.Id);
             if (HistoriaEncontrada != null)
             {
                 HistoriaEncontrada.FechaInicial = historia.FechaInicial;
