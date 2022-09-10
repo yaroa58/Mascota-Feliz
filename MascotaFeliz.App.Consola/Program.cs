@@ -59,7 +59,7 @@ namespace MascotaFeliz.App.Consola
         {
             var mascota = new Mascota
             {
-                Nombres = "Firulais",
+                Nombre = "Firulais",
                 Color = "Café", 
                 Especie = "Perro",
                 Raza = "Shitzu",
