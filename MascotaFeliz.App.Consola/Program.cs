@@ -20,7 +20,7 @@ namespace MascotaFeliz.App.Consola
             //ListarDuenosFiltro();      
             //AddDueno();
             //BuscarDueno(5);
-
+            addMascota();
             //ListarVeterinariosFiltro();
             //AddVeterinario();
             //BuscarVeterinario(1);
@@ -54,7 +54,20 @@ namespace MascotaFeliz.App.Consola
             };
             _repoVeterinario.AddVeterinario(veterinario);
         }
-
+        
+         private static void addMascota()
+        {
+            var mascota = new Mascota
+            {
+                Nombres = "Firulais",
+                Color = "Café", 
+                Especie = "Perro",
+                Raza = "Shitzu",
+                
+            };
+            _repoVeterinario.AddVeterinario(veterinario);
+        }
+        
         private static void AddHistoria()
         {
             var historia = new Historia

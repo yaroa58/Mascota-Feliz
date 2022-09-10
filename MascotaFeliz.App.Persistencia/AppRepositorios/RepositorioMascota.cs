@@ -51,7 +51,7 @@ namespace MascotaFeliz.App.Persistencia
             {
                 if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
                 {
-                    mascotas = mascotas.Where(s => s.Nombres.Contains(filtro));
+                    mascotas = mascotas.Where(s => s.Nombre.Contains(filtro));
                 }
             }
             return mascotas;
@@ -72,7 +72,7 @@ namespace MascotaFeliz.App.Persistencia
             var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(d => d.Id == mascota.Id);
             if (mascotaEncontrado != null)
             {
-                mascotaEncontrado.Nombres = mascota.Nombres;
+                mascotaEncontrado.Nombre = mascota.Nombre;
                 mascotaEncontrado.Color = mascota.Color;
                 mascotaEncontrado.Especie = mascota.Especie;
                 mascotaEncontrado.Raza = mascota.Raza;
