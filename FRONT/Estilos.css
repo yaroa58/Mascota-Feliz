@@ -323,6 +323,47 @@ header {
 
 /* ----------------------------------------------------------------------- */
 /* section 3 persona que trabará el mapara*/
+/*Inicio estilo área de contacto*/
+#contacto-izq{
+    width: 1000px;
+    height: 600px;
+    /*background: #78ffd6;*/
+    float: left;
+    
+    
+}
+
+#contacto-der{
+    width: 850px;
+    height: 500px;
+    background: none;
+    margin-top: 60px;
+    float: left;
+    font-size: 30px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+#mapa{
+    width: 800px;
+    height: 500px;
+    margin-top: 60px;
+    padding-left: 10px;
+    margin-left: 500px;
+}
+.mapa h2{
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 600px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+
+}
+/*fin area de contacto*/
+
 
 /* fin section 3 persona que trabará el mapara*/
 
