@@ -351,12 +351,15 @@ header {
     margin-bottom: 20px;
     border: 1px solid ;
     border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 .contactos form textarea{
-    max-width: 50px;
+    max-width: 500px;
     min-width: 500px;
     min-height: 140px;
     max-height: 140px;
+    font-family: 'Open Sans', sans-serif;
 }
 .contactos .boton{
     padding: 15px;
@@ -366,6 +369,7 @@ header {
     border-radius: 3px;
     background: linear-gradient(to left, #78ffd6, #a8ff78);
     cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -553,6 +557,13 @@ header {
     cursor: pointer;
     border-radius: 6px;
     font-weight: bold;
+    
  
 }
     
+.perromid{
+  width: 1px;
+  height: 2px;
+  align-items: baseline;
+  padding-block-start: 0%;
+}
