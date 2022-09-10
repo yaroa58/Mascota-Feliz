@@ -80,7 +80,7 @@ namespace MascotaFeliz.App.Persistencia
 
         public Veterinario GetVeterinario(int IdVeterinario)
         {
-            return _appContext.Veterinarios.FirstOrDefault(d => d.Id == idVeterinario);
+            return _appContext.Veterinarios.FirstOrDefault(d => d.Id == IdVeterinario);
         }
 
 
