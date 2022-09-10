@@ -44,7 +44,7 @@ namespace MascotaFeliz.App.Persistencia
             return GetAllHistorias_();
         }
 
-////////////////// filtrar por filtro
+////////////////////// filtrar por filtro
 
         public IEnumerable<Historia> GetAllHistorias_()
         {
