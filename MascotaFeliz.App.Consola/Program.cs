@@ -18,13 +18,16 @@ namespace MascotaFeliz.App.Consola
             Console.WriteLine("Hola amigos vamos a empezar a trabajar con las tablas");
                        
             //ListarDuenosFiltro();      
-            // AddDueno();
-            //BuscarDueno(5);
-            addMascota();
+             //AddDueno();
+            BuscarDueno(1);
+            //addMascota();
             //ListarVeterinariosFiltro();
             //AddVeterinario();
             //BuscarVeterinario(1);
             //AddHistoria();
+            //BuscarMascota(2);
+            //ListarMascotas();
+
             
 
         }
@@ -33,7 +36,7 @@ namespace MascotaFeliz.App.Consola
         {
             var dueno = new Dueno
             {
-                Nombres = "Leonardo",
+                Nombres = "Miguel",
                 Apellidos = "Rodriguez", 
                 Direccion = "Calle 120",
                 Telefono = "111258258",
@@ -59,13 +62,13 @@ namespace MascotaFeliz.App.Consola
         {
             var mascota = new Mascota
             {
-                Nombre = "Firulais",
-                Color = "Café", 
+                Nombre = "Aquiles",
+                Color = "Blanco", 
                 Especie = "Perro",
                 Raza = "Shitzu",
                 
             };
-            // _repoVeterinario.AddVeterinario(veterinario);
+            _repoMascota.AddMascota(mascota);
         }
         
         // private static void AddHistoria()
@@ -83,6 +86,12 @@ namespace MascotaFeliz.App.Consola
         {
             var dueno = _repoDueno.GetDueno(idDueno);
             Console.WriteLine(dueno.Nombres + " " + dueno.Apellidos+" "+dueno.Direccion+" "+dueno.Telefono+" "+dueno.Correo);
+        }
+
+         private static void BuscarMascota(int idMascota)
+        {
+            var mascota = _repoMascota.GetMascota(idMascota);
+            Console.WriteLine(mascota.Nombre + " " + mascota.Color+" "+mascota.Especie+" "+mascota.Raza);
         }
 
         private static void BuscarVeterinario(int idVeterinario)
@@ -109,6 +118,15 @@ namespace MascotaFeliz.App.Consola
                 Console.WriteLine(p.Nombres + " " + p.Apellidos);
             }
 
+        }
+
+        private static void ListarMascotas()
+        {   
+             var mascotas = _repoMascota.GetAllMascotas();
+             foreach ( Mascota d in mascotas)
+             {
+	            Console.WriteLine(d.Nombre + " " +d.Raza);
+             }
         }
 
 
