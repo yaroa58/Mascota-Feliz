@@ -43,7 +43,7 @@ namespace MascotaFeliz.App.Persistencia
         public Veterinario UpdateVeterinario(Veterinario veterinario)
         {
             var veterinarioEncontrado=_appContext.Veterinarios.FirstOrDefault(d => d.Id == veterinario.Id);
-            if(veterinarioEncontrado=! null)
+            if(veterinarioEncontrado != null)
             {
                 veterinarioEncontrado.Nombres = veterinario.Nombres;
                 veterinarioEncontrado.Apellidos = veterinario.Apellidos;

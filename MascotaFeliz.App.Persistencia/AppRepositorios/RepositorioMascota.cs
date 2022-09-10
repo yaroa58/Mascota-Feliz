@@ -25,14 +25,14 @@ namespace MascotaFeliz.App.Persistencia
 
         public Mascota AddMascota(Mascota mascota)
         {
-            var mascotaAdicionado = _appContext.Duenos.Add(mascota);
+            var mascotaAdicionado = _appContext.Mascotas.Add(mascota);
             _appContext.SaveChanges();
             return mascotaAdicionado.Entity;
         }
 
         public void DeleteMascota(int idMascota)
         {
-            var mascotaEncontrado = _appContext.Duenos.FirstOrDefault(d => d.Id == idMascota);
+            var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(d => d.Id == idMascota);
             if (mascotaEncontrado == null)
                 return;
             _appContext.Mascotas.Remove(mascotaEncontrado);
@@ -72,7 +72,7 @@ namespace MascotaFeliz.App.Persistencia
             var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(d => d.Id == mascota.Id);
             if (mascotaEncontrado != null)
             {
-                mascotaEncontrado.Nombres = mascota.Nombre;
+                mascotaEncontrado.Nombre = mascota.Nombre;
                 mascotaEncontrado.Color = mascota.Color;
                 mascotaEncontrado.Especie = mascota.Especie;
                 mascotaEncontrado.Raza = mascota.Raza;
