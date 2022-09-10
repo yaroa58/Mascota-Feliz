@@ -13,6 +13,7 @@ namespace MascotaFeliz.App.Persistencia
         void DeleteVeterinario (int idVeterinario);
         Veterinario UpdateVeterinario (Veterinario veterinario);
         Veterinario GetVeterinario (int idVeterinario);
+        IEnumerable<Veterinario> GetVeterinariosPorFiltro(string filtro);
         
 
     }

@@ -18,7 +18,7 @@ namespace MascotaFeliz.App.Consola
             Console.WriteLine("Hola amigos vamos a empezar a trabajar con las tablas");
                        
             //ListarDuenosFiltro();      
-            //AddDueno();
+            // AddDueno();
             //BuscarDueno(5);
             addMascota();
             //ListarVeterinariosFiltro();
@@ -65,18 +65,18 @@ namespace MascotaFeliz.App.Consola
                 Raza = "Shitzu",
                 
             };
-            _repoVeterinario.AddVeterinario(veterinario);
+            // _repoVeterinario.AddVeterinario(veterinario);
         }
         
-        private static void AddHistoria()
-        {
-            var historia = new Historia
-            {
-                FechaInicial = new DateTime(1990, 04, 12)
+        // private static void AddHistoria()
+        // {
+        //     var historia = new Historia
+        //     {
+        //         FechaInicial = new DateTime(1990, 04, 12)
                 
-            };
-            _repoHistoria.AddHistoria(historia);
-        }
+        //     };
+        //     _repoHistoria.AddHistoria(historia);
+        // }
 
 
         private static void BuscarDueno(int idDueno)
