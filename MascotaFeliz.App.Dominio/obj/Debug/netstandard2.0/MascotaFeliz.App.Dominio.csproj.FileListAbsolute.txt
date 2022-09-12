@@ -25,3 +25,12 @@ C:\Mascotas\Mascota-Feliz\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\Masc
 C:\Mascotas\Mascota-Feliz\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Mascotas\Mascota-Feliz\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
 C:\Mascotas\Mascota-Feliz\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb
+C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.deps.json
+C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
+C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb
+C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csprojAssemblyReference.cache
+C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.AssemblyInfo.cs
+C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
+C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb
