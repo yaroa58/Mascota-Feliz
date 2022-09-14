@@ -80,8 +80,8 @@ header {
     color: #fff;
     text-decoration: none;
     float: left;
-    
     margin: 7px 6px;
+    
      /* margin-top: 7px; */
     /* padding-top: 4px;  */
 
@@ -90,17 +90,16 @@ header {
 .botones-registros:hover{
     background-color: #ef8354;
     transition: 0.7s;
+    border-radius: 4px;    
+   
+}
+.sub-items:hover {
+  
     color: #000; 
-    border-radius: 4px;
+    font-weight: bold;
     
    
 }
-/* .botones-registros:hover a{
-  
-    color: #000; 
-    
-   
-} */
 
 .slogan {
     position: absolute;
