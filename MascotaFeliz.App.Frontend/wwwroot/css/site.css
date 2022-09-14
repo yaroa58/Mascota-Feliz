@@ -6,13 +6,13 @@ for details on configuring this project to bundle and minify static web assets. 
   text-align: center;
   word-break: break-all;
 } */
-header {
+/* header {
   text-align: right;
   padding: 25px 0;
   background-color: #5a5744;
 
 }
-/* menu inicio servicios registro banner  */
+/* menu inicio servicios registro banner  
 .navbar-nav li ul{
   display: none;
   position: absolute;
@@ -45,7 +45,7 @@ a {
 }
 
 /* Sticky footer styles
--------------------------------------------------- */
+-------------------------------------------------- 
 html {
   font-size: 14px;
 }
@@ -74,14 +74,14 @@ button.accept-policy {
 }
 
 /* Sticky footer styles
--------------------------------------------------- */
+-------------------------------------------------- 
 html {
   position: relative;
   min-height: 100%;
 }
 
 body {
-  /* Margin bottom by footer height */
+ Margin bottom by footer height 
   margin-bottom: 60px;
 }
 
@@ -91,5 +91,176 @@ body {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
-  /* Vertically center the text there */
+  /* Vertically center the text there 
+} */
+header {
+  text-align: right;
+  padding: 25px 0;
+  background-color: #5a5744;
+
+}
+
+.menu-list{
+  margin-top: -10px;
+  margin-right: 70px;
+  text-align: right;
+
+}
+.menu-list > li{
+  /* float: left; */
+  /* right: 0; */
+  display: inline-block;
+}
+.menu-list li ul{
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+.menu-list li:hover > ul{
+  display: block;
+}
+.list-items{
+  display: block;
+  list-style: none;
+}
+.botones{
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  font-size: 1.1rem;
+  position: relative;
+
+}
+.botones::after{
+  content: "";
+  width: 0;
+  height: 4px;
+  background-color: #ef8354;
+  position:absolute;
+  bottom: 7px;
+  right: 50%;
+  transition: all .5s;
+  will-change: width;
+
+}
+.botones:hover:after{
+  width: 100%;
+  right: 0;
+}
+
+.botones-registros a{
+  
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  
+  margin: 7px 6px;
+   /* margin-top: 7px; */
+  /* padding-top: 4px;  */
+
+  
+}
+.botones-registros:hover{
+  background-color: #ef8354;
+  transition: 0.7s;
+  color: #000; 
+  border-radius: 4px;
+  
+ 
+}
+/* .botones-registros:hover a{
+
+  color: #000; 
+  
+ 
+} */
+
+.slogan {
+  position: absolute;
+  display: block;
+  top: -1%;
+  left: 0%;
+  height: 150px;
+}
+
+
+
+.encabezado-img {
+  
+  background-color: #5a5744;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-repeat: no-repeat;
+  
+}
+.encabezado-img img{
+  position: absolute;
+  display: inline;
+  line-height: 0px;
+  height: 350px;
+  right: 0;
+  top: 45px;
+
+}
+.encabezado-img .slice{
+  position: absolute;
+  width: 400px;
+  left: 0;
+  top: 210px;
+}
+.encabezado-img .slice2{
+  width: 1920px;
+  height: 27px;
+  margin-bottom: 0;
+  top: 541px;
+  z-index: 1;
+}
+.perro{
+  position: absolute;
+  width: 350px;
+  right: 0%;
+  top:33%;
+  z-index: 1;
+  
+  
+  
+}
+.mascota2{
+  position: absolute;
+  width: 400px;
+  right: 450px;
+  top: 10px;
+  
+}
+.encabezado-img h1 {
+  font-size: 40px;
+  padding: 30px 0;
+  z-index: 1;  
+
+
+
+}
+
+
+.encabezado-img .img {
+  font-size: 20px;
+  font-weight: bold;
+  border: solid 1px;
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 1px;
+  padding: 4px 12px;
+  border-radius: 6px;
+
+}
+
+
+.encabezado-img .img:hover {
+  transition: 0.5s;
+  background: #ef8354;
 }
