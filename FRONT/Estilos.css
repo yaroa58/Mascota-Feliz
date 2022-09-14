@@ -325,7 +325,7 @@ header {
 /* section 3 persona que trabará el mapara*/
 /*Inicio estilo área de contacto*/
 #contacto-izq{
-    width: 1000px;
+    width: 100px;
     height: 600px;
     /*background: #78ffd6;*/
     float: left;
@@ -334,10 +334,9 @@ header {
 }
 
 #contacto-der{
-    width: 850px;
+    width: 650px;
     height: 500px;
     background: none;
-    margin-top: 60px;
     float: left;
     font-size: 30px;
     margin-top: 30px;
@@ -347,15 +346,15 @@ header {
 #mapa{
     width: 800px;
     height: 500px;
-    margin-top: 60px;
+    margin-top: 6px;
     padding-left: 10px;
-    margin-left: 500px;
+    justify-content: center;
+    margin-left: 200px;
 }
 .mapa h2{
     justify-content: center;
     font-size: 50px;
-    margin-top: 600px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     letter-spacing: 1px;
     color: #000;
     text-align: center;
@@ -602,9 +601,8 @@ header {
  
 }
     
-.perromid{
-  width: 1px;
-  height: 2px;
+.perrito{
+  width: 300px;
   align-items: baseline;
   padding-block-start: 0%;
   
