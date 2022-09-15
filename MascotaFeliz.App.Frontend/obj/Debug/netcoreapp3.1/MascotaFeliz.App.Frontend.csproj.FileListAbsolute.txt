@@ -8,7 +8,6 @@ C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Frontend\obj
 C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.TagHelpers.input.cache
 C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.TagHelpers.output.cache
 C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.RazorCoreGenerate.cache
-C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Duenos\ListaDuenos.cshtml.g.cs
 C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
 C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
