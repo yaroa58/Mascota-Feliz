@@ -19,7 +19,7 @@ body {
 /* ----------------------------------------------------------------------- */
 
 /* section persona que trabajrá el banner */
-header {
+header  {
     text-align: right;
     padding: 25px 0;
     background-color: #5a5744;
@@ -28,7 +28,7 @@ header {
 
 .menu-list{
     margin-top: -10px;
-    margin-right: 70px;
+    margin-left: 810px;
     text-align: right;
 
 }
