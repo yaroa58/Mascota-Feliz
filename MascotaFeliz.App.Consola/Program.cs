@@ -27,7 +27,6 @@ namespace MascotaFeliz.App.Consola
             //AddHistoria();
             //BuscarMascota(2);
             //ListarMascotas();
-
             
 
         }
