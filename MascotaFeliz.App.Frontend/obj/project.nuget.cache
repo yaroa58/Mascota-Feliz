@@ -1,20 +1,8 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
-<<<<<<< HEAD
   "dgSpecHash": "Z3P0augwdzlrSadR33l55WNl18eDQd3c5pngCUi6524jENCjMzt3VzOLN26MzDYV39CQm9PtWS/uTKJQRHVzMA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MAscotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
-=======
-  "dgSpecHash": "O8hs6JFbE9/3GXwZ5ICA8JP+DX0m46bdKxSIbDMVsJoPkQCWI+vtaedFpCHOFFCme1BVzBvF3orbHVLWVMNtIg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
->>>>>>> Desarrollo
-=======
-  "dgSpecHash": "Z3P0augwdzlrSadR33l55WNl18eDQd3c5pngCUi6524jENCjMzt3VzOLN26MzDYV39CQm9PtWS/uTKJQRHVzMA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MAscotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
->>>>>>> Stashed changes
   "expectedPackageFiles": [
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -111,5 +99,12 @@
     "C:\\Users\\dell\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\dell\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MAscotaFeliz.App.Frontend\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

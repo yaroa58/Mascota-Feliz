@@ -5743,19 +5743,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MAscotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
       "projectName": "MascotaFeliz.App.Frontend",
       "projectPath": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MAscotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MAscotaFeliz.App.Frontend\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
-      "projectName": "MascotaFeliz.App.Frontend",
-      "projectPath": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
-      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MascotaFeliz.App.Frontend\\obj\\",
->>>>>>> Desarrollo
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5807,5 +5799,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.422\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MAscotaFeliz.App.Frontend\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
