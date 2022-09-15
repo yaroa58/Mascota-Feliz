@@ -9,18 +9,18 @@ using MascotaFeliz.App.Persistencia;
 
 namespace MascotaFeliz.App.Frontend.Pages
 {
-    public class DetallesDuenosModel : PageModel
+    public class DetallesMascotasModel : PageModel
     {
-        private readonly IRepositorioDueno _repoDueno;
-        public Dueno dueno {get;set;}
-        public DetallesDuenosModel()
+        private readonly IRepositorioMascota _repoMascota;
+        public Mascota mascota {get;set;}
+        public DetallesMascotasModel()
         {
-            this._repoDueno = new RepositorioDueno(new Persistencia.AppContext());
+            this._repoMascota = new RepositorioMascota(new Persistencia.AppContext());
         }
-        public IActionResult OnGet (int duenoId)
+        public IActionResult OnGet (int mascotaId)
         {
-            dueno =_repoDueno.GetDueno(duenoId);
-            if (dueno == null)
+            mascota =_repoMascota.GetMascota(mascotaId);
+            if (mascota == null)
             {
                 return RedirectToPage("./NotFound");
             }
