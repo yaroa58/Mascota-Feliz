@@ -70,6 +70,7 @@ header {
     will-change: width;
 
 }
+
 .botones:hover:after{
     width: 100%;
     right: 0;
