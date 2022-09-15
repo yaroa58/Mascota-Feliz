@@ -208,3 +208,9 @@ C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Consola\obj\
 C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.dll
 C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.pdb
 C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.genruntimeconfig.cache
+C:\Users\Carlos Correa\Videos\Mascota-Feliz\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.dll
+C:\Users\Carlos Correa\Videos\Mascota-Feliz\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.pdb
+C:\Users\Carlos Correa\Videos\Mascota-Feliz\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.csprojAssemblyReference.cache
+C:\Users\Carlos Correa\Videos\Mascota-Feliz\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.AssemblyInfoInputs.cache
+C:\Users\Carlos Correa\Videos\Mascota-Feliz\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.AssemblyInfo.cs
+C:\Users\Carlos Correa\Videos\Mascota-Feliz\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.csproj.CoreCompileInputs.cache

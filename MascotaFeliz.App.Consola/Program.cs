@@ -27,6 +27,7 @@ namespace MascotaFeliz.App.Consola
             //AddHistoria();
             //BuscarMascota(2);
             //ListarMascotas();
+            //AsignarVisitaPyP(1);
             
 
         }
@@ -128,7 +129,23 @@ namespace MascotaFeliz.App.Consola
              }
         }
 
-
+        private static void AsignarVisitaPyP(int idHistoria){
+            var historia = _repoHistoria.getHistoria(idHistoria);
+            if(historia != null)
+            {
+                if(historia.VisitasPyP != null)
+                {
+                    historia.VisitasPyP.Add(new VisitaPyP {FechaVisita = new DateTime(2020, 01,01), Temperatura = 57.0F, Peso = 25.0F, FrecuenciaRespiratoria = 16.0F, FrecuenciaCardiaca = 18.0F, EstadoAnimo = "Feliz", IdVeterinario = 1, Recomendaciones = "alimentar" });
+                }
+                else
+                {
+                    historia.VisitasPyP = new List<VisitaPyP>{
+                        new VisitaPyP{FechaVisita = new DateTime(2020, 01, 01), Temperatura = 38.0F, Peso = 30.0F, FrecuenciaRespiratoria = 16.0F, FrecuenciaCardiaca = 18.0F, EstadoAnimo = "Feliz", IdVeterinario = 1, Recomendaciones = "alimentar" }
+                    };
+                }
+                _repoHistoria.UpdateHistoria(historia);
+            }
+        }
         
         
     }
