@@ -1,11 +1,15 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MAscotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj": {}
 =======
     "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj": {}
 >>>>>>> Desarrollo
+=======
+    "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MAscotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj": {}
+>>>>>>> Stashed changes
   },
   "projects": {
     "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
@@ -61,6 +65,7 @@
         }
       }
     },
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MAscotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj": {
       "version": "1.0.0",
@@ -72,14 +77,21 @@
         "outputPath": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MAscotaFeliz.App.Frontend\\obj\\",
 =======
     "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj": {
+=======
+    "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MAscotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj": {
+>>>>>>> Stashed changes
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MAscotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
         "projectName": "MascotaFeliz.App.Frontend",
-        "projectPath": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MascotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
+        "projectPath": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MAscotaFeliz.App.Frontend\\MascotaFeliz.App.Frontend.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+<<<<<<< Updated upstream
         "outputPath": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MascotaFeliz.App.Frontend\\obj\\",
 >>>>>>> Desarrollo
+=======
+        "outputPath": "C:\\Users\\dell\\Desktop\\Mintic\\Ciclo 3\\Mascota-Feliz\\MAscotaFeliz.App.Frontend\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"

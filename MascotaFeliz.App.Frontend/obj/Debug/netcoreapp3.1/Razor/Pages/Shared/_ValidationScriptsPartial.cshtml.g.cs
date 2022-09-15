@@ -17,11 +17,15 @@ namespace MascotaFeliz.App.Frontend.Pages.Shared
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 #line 1 "C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MAscotaFeliz.App.Frontend\Pages\_ViewImports.cshtml"
 =======
 #line 1 "C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MascotaFeliz.App.Frontend\Pages\_ViewImports.cshtml"
 >>>>>>> Desarrollo
+=======
+#line 1 "C:\Users\dell\Desktop\Mintic\Ciclo 3\Mascota-Feliz\MAscotaFeliz.App.Frontend\Pages\_ViewImports.cshtml"
+>>>>>>> Stashed changes
 using MascotaFeliz.App.Frontend;
 
 #line default
