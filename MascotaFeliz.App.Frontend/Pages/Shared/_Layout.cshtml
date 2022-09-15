@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Mascota Feliz </title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/Estilos.css" />
 
 
 </head>
@@ -20,24 +20,32 @@
                 <li class="list-items"><a href="#" class="botones">Servicios</a></li>
                 <li class="list-items"><a href="#" class="botones">Registros</a>
                     <ul class="botones-registros">
-                        <li class="list-items"><a href="././FRONT/RegistroDueno.html">Registro Dueño </a>
-                        <li class="list-items"><a href="../FRONT/RegistroMascota.html">Resgitro Mascota</a>
-                        <li class="list-items"><a href="../FRONT/RegistroVeterinario.html">Registro Veterinario</a>
+                        <li class="list-items"><a class="sub-items" href="~/Registros/RegistroDueno.html">Registro Dueño </a>
+                        <li class="list-items"><a class="sub-items" href="~/Registros/RegistroMascota.html">Resgitro Mascota</a>
+                        <li class="list-items"><a class="sub-items" href="~/Registros/RegistroVeterinario.html">Registro Veterinario</a>
+
+                    </ul>
+                </li>
+                <li class="list-items"><a href="#" class="botones">Admin</a>
+                    <ul class="botones-registros">
+                        <li class="list-items"><a class="sub-items" href="../FRONT/RegistroDueno.html">Ver Dueño </a>
+                        <li class="list-items"><a class="sub-items" href="../FRONT/RegistroMascota.html">Ver Mascota</a>
+                        <li class="list-items"><a class="sub-items" href="../FRONT/RegistroVeterinario.html">Ver Veterinario</a>
 
                     </ul>
                 </li>
 
-                <li class="list-items"><a href="#" class="botones">Contáctenos</a> </li>
+                @* <li class="list-items"><a href="#" class="botones">Contáctenos</a> </li> *@
             </ul>
 
             <div class="logo">
-                <img class="slogan" src="~/img/Mascota_Feliz_Logo.png" alt="logo">
+                <img class="slogan" src="~/imgs/Mascota_Feliz_Logo.png" alt="logo">
             </div>
             <div class="mascota">
-                <img class="perro" src="" alt="Mascotica">
+                <img class="perro" src="~/imgs/perro-gato.png" alt="Mascotica">
             </div>
             <div class="mascota12">
-                <img class="mascota2" src="../FRONT/imgs/fon.png" alt="">
+                <img class="mascota2" src="~/imgs/fon.png" alt="">
             </div>
 
         </nav>
@@ -46,8 +54,8 @@
 
         <div class="encabezado-img">
             <!-- <img src="../FRONT/imgs/fon.png" alt=""> -->
-            <img class="slice" src="../FRONT/imgs/slice.png" alt="">
-            <img class="slice2" src="../FRONT/imgs/slider-background-1.png" alt="">
+            <img class="slice" src="~/imgs/slice.png" alt="">
+            <img class="slice2" src="~/imgs/slider-background-1.png" alt="">
             <!-- <img class="mascota" src="../FRONT/imgs/slider-img-1.png" alt=""> -->
             <h1>Tú médico veterinario en Casa</h1>
 
