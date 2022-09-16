@@ -338,3 +338,9 @@ C:\Users\Carlos Correa\Videos\Mascota-Feliz\Mascotafeliz.App.Frontend\obj\Debug\
 C:\Users\Carlos Correa\Videos\Mascota-Feliz\Mascotafeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.dll
 C:\Users\Carlos Correa\Videos\Mascota-Feliz\Mascotafeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.pdb
 C:\Users\Carlos Correa\Videos\Mascota-Feliz\Mascotafeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.genruntimeconfig.cache
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Duenos\DetallesDuenos.cshtml.g.cs
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Duenos\ListaDuenos.cshtml.g.cs
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\DetallesMascotas.cshtml.g.cs
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\ListaMascotas.cshtml.g.cs
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\DetallesVeterinarios.cshtml.g.cs
+C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\ListaVeterinarios.cshtml.g.cs
