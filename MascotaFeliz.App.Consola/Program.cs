@@ -18,7 +18,7 @@ namespace MascotaFeliz.App.Consola
             Console.WriteLine("Hola amigos vamos a empezar a trabajar con las tablas");
                        
             //ListarDuenosFiltro();      
-            //AddDueno();
+            AddDueno();
             //BuscarDueno(2);
             //addMascota();
             //ListarVeterinariosFiltro();
@@ -36,10 +36,10 @@ namespace MascotaFeliz.App.Consola
         {
             var dueno = new Dueno
             {
-                Nombres = "Carlos",
-                Apellidos = "Ruiz", 
-                Direccion = "Calle Falsa 123",
-                Telefono = "1238258",
+                Nombres = "Pedro",
+                Apellidos = "Florez", 
+                Direccion = "Calle 23 #45-67",
+                Telefono = "3108987678",
                 Correo = "Batmancito@gmail.com"
             };
             _repoDueno.AddDueno(dueno);
@@ -129,23 +129,23 @@ namespace MascotaFeliz.App.Consola
              }
         }
 
-        private static void AsignarVisitaPyP(int idHistoria){
-            var historia = _repoHistoria.getHistoria(idHistoria);
-            if(historia != null)
-            {
-                if(historia.VisitasPyP != null)
-                {
-                    historia.VisitasPyP.Add(new VisitaPyP {FechaVisita = new DateTime(2020, 01,01), Temperatura = 57.0F, Peso = 25.0F, FrecuenciaRespiratoria = 16.0F, FrecuenciaCardiaca = 18.0F, EstadoAnimo = "Feliz", IdVeterinario = 1, Recomendaciones = "alimentar" });
-                }
-                else
-                {
-                    historia.VisitasPyP = new List<VisitaPyP>{
-                        new VisitaPyP{FechaVisita = new DateTime(2020, 01, 01), Temperatura = 38.0F, Peso = 30.0F, FrecuenciaRespiratoria = 16.0F, FrecuenciaCardiaca = 18.0F, EstadoAnimo = "Feliz", IdVeterinario = 1, Recomendaciones = "alimentar" }
-                    };
-                }
-                _repoHistoria.UpdateHistoria(historia);
-            }
-        }
+        // private static void AsignarVisitaPyP(int idHistoria){
+        //     var historia = _repoHistoria.getHistoria(idHistoria);
+        //     if(historia != null)
+        //     {
+        //         if(historia.VisitasPyP != null)
+        //         {
+        //             historia.VisitasPyP.Add(new VisitaPyP {FechaVisita = new DateTime(2020, 01,01), Temperatura = 57.0F, Peso = 25.0F, FrecuenciaRespiratoria = 16.0F, FrecuenciaCardiaca = 18.0F, EstadoAnimo = "Feliz", IdVeterinario = 1, Recomendaciones = "alimentar" });
+        //         }
+        //         else
+        //         {
+        //             historia.VisitasPyP = new List<VisitaPyP>{
+        //                 new VisitaPyP{FechaVisita = new DateTime(2020, 01, 01), Temperatura = 38.0F, Peso = 30.0F, FrecuenciaRespiratoria = 16.0F, FrecuenciaCardiaca = 18.0F, EstadoAnimo = "Feliz", IdVeterinario = 1, Recomendaciones = "alimentar" }
+        //             };
+        //         }
+        //         _repoHistoria.UpdateHistoria(historia);
+        //     }
+        // }
         
         
     }
