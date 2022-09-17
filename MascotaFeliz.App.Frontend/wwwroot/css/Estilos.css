@@ -137,23 +137,21 @@ header  {
     position: absolute;
     width: 400px;
     left: 0;
-    top: 210px;
+    top: 216px;
 }
 .encabezado-img .slice2{
     width: 1920px;
     height: 27px;
     margin-bottom: 0;
-    top: 541px;
+    top: 557px;
     z-index: 1;
 }
 .perro{
     position: absolute;
     width: 350px;
     right: 0%;
-    top:33%;
-    z-index: 1;
-    
-    
+    top:37%;
+    z-index: 1;     
     
 }
 .mascota2{
