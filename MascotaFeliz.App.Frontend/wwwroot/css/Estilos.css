@@ -6,23 +6,23 @@
 
 }
 
-body {
+/* body {
     background: #a8ff78;
     background: -webkit-linear-gradient(to left, #78ffd6, #a8ff78);
     background: linear-gradient(to left, #78ffd6, #a8ff78);
     font-family: 'Poppins', sans-serif;
 
-}
+} */
 
 /*==> css index.html <==*/
 
 /* ----------------------------------------------------------------------- */
 
 /* section persona que trabajrá el banner */
-header  {
+ header  {
     text-align: right;
     padding: 25px 0;
-    background-color: #5a5744;
+    
 
 }
 
@@ -33,9 +33,9 @@ header  {
 
 }
 .menu-list > li{
-    /* float: left; */
-    /* right: 0; */
-    display: inline-block;
+    /* float: left;  */
+     right: 0; 
+     display: inline-block;
 }
 .menu-list li ul{
     display: none;
@@ -57,8 +57,8 @@ header  {
     font-size: 1.1rem;
     position: relative;
 
-}
-.botones::after{
+}  */
+/* .botones::after{
     content: "";
     width: 0;
     height: 4px;
@@ -82,10 +82,10 @@ header  {
     text-decoration: none;
     float: left;
     margin: 7px 6px;
-    
+     */
      /* margin-top: 7px; */
     /* padding-top: 4px;  */
-
+/* 
     
 }
 .botones-registros:hover{
@@ -314,7 +314,7 @@ header  {
         opacity: 0;
     }
 
-}
+} */
 
 
 /* fin section  2 persona que trabajará el video  */
@@ -322,14 +322,14 @@ header  {
 /* ----------------------------------------------------------------------- */
 /* section 3 persona que trabará el mapara*/
 /*Inicio estilo área de contacto*/
-#contacto-izq{
+/* #contacto-izq{
     width: 1000px;
     height: 600px;
     /*background: #78ffd6;*/
-    float: left;
+    /* float: left;
     
     
-}
+} */
 
 #contacto-der{
     width: 850px;
@@ -359,20 +359,20 @@ header  {
     text-align: center;
     font-weight: bold;
 
-}
+} */
 /*fin area de contacto*/
 
 
 /* fin section 3 persona que trabará el mapara*/
 
 /* fin section 3 persona que trabará el mapara y los datos de contacto */
-.contactos{
+/* .contactos{
     margin-top: 700px ;
     margin-left: 400px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-.contactos h2{
+    grid-template-columns: repeat(2,1fr); */
+/* } */
+/* .contactos h2{
 
     
     margin-bottom: 17px;
@@ -495,9 +495,9 @@ header  {
         transition: 0.9s;
         border-color: #000;
     }
-}
+} */
 /* Estilos de consultar lista de todas las mascotas */
-.consulta {
+/* .consulta {
     width: 400px;
     background: #24303c;
     padding: 30px;
@@ -523,11 +523,11 @@ header  {
     padding: 12px;
     color: black;
     font-size: 18px;
-    cursor: pointer;
+    cursor: pointer; */
     }
 
 /* Estilos de consultar mascota */
-.form-register12{
+/* .form-register12{
     width: 400px;
     background: #24303c;
     padding: 30px;
@@ -606,4 +606,4 @@ header  {
   align-items: baseline;
   padding-block-start: 0%;
   
-}
+} */
