@@ -20,9 +20,9 @@ namespace MascotaFeliz.App.Consola
             //ListarDuenosFiltro();      
             AddDueno();
             //BuscarDueno(2);
-            //addMascota();
+            addMascota();
             //ListarVeterinariosFiltro();
-            //AddVeterinario();
+            AddVeterinario();
             //BuscarVeterinario(1);
             //AddHistoria();
             //BuscarMascota(2);
@@ -36,11 +36,11 @@ namespace MascotaFeliz.App.Consola
         {
             var dueno = new Dueno
             {
-                Nombres = "Pedro",
-                Apellidos = "Florez", 
-                Direccion = "Calle 23 #45-67",
-                Telefono = "3108987678",
-                Correo = "Batmancito@gmail.com"
+                Nombres = "Maria",
+                Apellidos = "La del barrio", 
+                Direccion = "Calle 3 #89-67",
+                Telefono = "238873881",
+                Correo = "Perruno@gmail.com"
             };
             _repoDueno.AddDueno(dueno);
         }

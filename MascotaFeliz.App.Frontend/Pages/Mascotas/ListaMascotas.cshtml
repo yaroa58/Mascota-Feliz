@@ -2,8 +2,18 @@
 @model MascotaFeliz.App.Frontend.Pages.ListaMascotasModel
 @{
 }
-<h1>Listado de Mascotas</h1>
+<link rel="stylesheet" href="~/css/Estilos.css">
+<h1 class="propietarios">Listado de Mascotas</h1>
 <table class="table">
+    <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Color</th>
+                <th>Especie</th>
+                <th>Raza</th>
+                <th>Detalles</th>
+            </tr>
+    </thead>
     
     @foreach (var mascota in Model.listaMascotas)
     {
@@ -16,7 +26,7 @@
             <td>@mascota.Raza</td>
             
             <td>
-                <a class = "btn btn-primary table-btn" asp-page="./DetallesMascotas" asp-route-mascotaId="@mascota.Id">
+                <a class = "btn-listado" asp-page="./DetallesMascotas" asp-route-mascotaId="@mascota.Id">
                 Detalle Mascota
                 </a>
             </td>
