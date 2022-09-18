@@ -79,6 +79,19 @@ namespace MascotaFeliz.App.Persistencia
                 _appContext.SaveChanges();
             }
             return mascotaEncontrado;
-        }     
+        }    
+        public Dueno AsignarDueno(int indMascota, int idDueno) {
+            var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(m => m.Id == idMascota);
+            if(mascotaEncontrado != null)
+            {
+                var duenoEncontrado = _appContext.Duenos.FirstOrDefault(v => v.Id == idDueno);
+                if(duenoEncontrado != null){
+                    mascotaEncontrado.Dueno = duenoEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return duenoEncontrado;
+            }
+            return null;
+        }
     }
 }
