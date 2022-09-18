@@ -5,6 +5,14 @@
 <link rel="stylesheet" href="~/css/Estilos.css">
 <h1 class="propietarios">Listado de Veterinarios</h1>
 <table class="table">
+      <thead>
+            <tr>
+                <th>Tajeta Profesional</th>
+                <th>Nombre</th>
+                <th>Apeliidos</th>
+                <th>Detalles</th>
+            </tr>
+    </thead>
     @foreach (var veterinario in Model.listaVeterinarios)
     {
         <tr>

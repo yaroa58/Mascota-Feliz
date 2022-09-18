@@ -5,6 +5,15 @@
 <link rel="stylesheet" href="~/css/Estilos.css">
 <h1 class="propietarios">Listado de Mascotas</h1>
 <table class="table">
+    <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Color</th>
+                <th>Especie</th>
+                <th>Raza</th>
+                <th>Detalles</th>
+            </tr>
+    </thead>
     
     @foreach (var mascota in Model.listaMascotas)
     {

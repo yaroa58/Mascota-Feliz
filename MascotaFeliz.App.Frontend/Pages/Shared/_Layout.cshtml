@@ -12,43 +12,58 @@
 </head>
 
 <body>
+
     <!-- persona que trabajará en el banner estará en esta section -->
     <header>
         <nav class="nav">
             <ul class="menu-list">
-                <li class="list-items"><a  asp-area=""  asp-page="/Duenos/ListaDuenos" id="botones">Inicio</a>
-                <li class="list-items"><a asp-area=""  asp-page="/Duenos/ListaDuenos" id="botones">Dueños</a>
-                <li class="list-items"><a asp-area=""  asp-page="/Mascotas/ListaMascotas" id="botones">Mascota</a>
-                <li class="list-items"><a asp-area=""  asp-page="/Veterinarios/ListaVeterinarios" id="botones">Veterinario</a>
-                        
+                <li class="list-items"><a href="http://127.0.0.1:5500/FRONT/INDEX.HTML" id="botones">Inicio</a></li>
+                <li class="list-items"><a asp-area="" asp-page="/Duenos/ListaDuenos" id="botones">Dueños</a>
+                <li class="list-items"><a asp-area="" asp-page="/Mascotas/ListaMascotas" id="botones">Mascota</a>
+                <li class="list-items"><a asp-area="" asp-page="/Veterinarios/ListaVeterinarios"
+                        id="botones">Veterinario</a>
+
 
                 </li>
 
             </ul>
-              <div class="logo">
+            <div class="logo">
                 <img class="slogan" src="~/imgs/Mascota_Feliz_Logo.png" alt="logo">
             </div>
 
         </nav>
     </header>
-            </section>
-            <div class="container">
-                <main role="main" class="pb-3">
-                    @RenderBody()
-                </main>
-            </div>
 
-            <footer class="border-top footer text-muted">
-                <div class="container">
-                    &copy; 2022 - MascotaFeliz.App.Frontend - <a asp-area="" asp-page="/Privacy">Privacy</a>
-                </div>
-            </footer>
 
-            <script src="~/lib/jquery/dist/jquery.min.js"></script>
-            <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-            <script src="~/js/site.js" asp-append-version="true"></script>
 
-            @RenderSection("Scripts", required: false)
+    </section>
+
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+@* 
+        <footer class="border-top footer text-muted">
+         <div class="line line-1">
+            <div class="wave wave1" style="background-image: url(~/imgs1.png)"></div>
+        </div>
+        <div class="line line-2">
+            <div class="wave wave2" style="background-image: url(~/imgs/2.png)"></div>
+        </div>
+        <div class="line line-3">
+            <div class="wave wave3" style="background-image: url(~/imgs3.png)"></div>
+        </div>
+        </footer>  *@
+        
+
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+
+        @RenderSection("Scripts", required: false)
+    
 </body>
+
 
 </html>
