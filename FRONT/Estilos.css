@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    
 
 }
 
 body {
-    background: #a8ff78;
+    background:  #78ffd6;
     background: -webkit-linear-gradient(to left, #78ffd6, #a8ff78);
     background: linear-gradient(to left, #78ffd6, #a8ff78);
     font-family: 'Poppins', sans-serif;
@@ -69,6 +69,7 @@ header {
     right: 50%;
     transition: all .5s;
     will-change: width;
+
 
 }
 .botones:hover:after{
@@ -419,6 +420,8 @@ header {
 
 /* ==> fin css index.html <== */
 .registro {
+    position: absolute;
+    left: 490px;
     width: 400px;
     background: #24303c;
     padding: 30px;
@@ -483,7 +486,7 @@ header {
     color: #000;
     margin: 16px 0;
     font-size: 20px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     cursor: pointer;
     border-radius: 6px;
     font-weight: bold;
@@ -492,9 +495,10 @@ header {
 
 @media (hover: hover) {
     .boton:hover {
-        color: rgba(255, 255, 255, 0.4);
+     
         transition: 0.9s;
         border-color: #000;
+        background: #78ffd6;
     }
 }
 /* Estilos de consultar lista de todas las mascotas */
@@ -606,4 +610,13 @@ header {
   align-items: baseline;
   padding-block-start: 0%;
   
+}
+
+/* js */
+#particles-js{
+   
+    margin-top: 67px;
+    height: 100%;
+    position: fixed;
+    
 }
