@@ -2,21 +2,51 @@
 @model MascotaFeliz.App.Frontend.Pages.DetallesMascotasModel
 @{
 }
-<h1>Detalles de la Mascota</h1>
+@* <h1>Detalles de la Mascota</h1>
 
 <div>
     Id: @Model.mascota.Id
 </div>
 <div>
-    Nombre: @Model.mascota.Nombre
+    Nombre: 
 </div>
 <div>
-    Color: @Model.mascota.Color
+    Color: 
 </div>
 <div>
-   Especie: @Model.mascota.Especie
+   Especie: 
 <div>
-    Raza: @Model.mascota.Raza
+    Raza: 
 </div>
 
-<a asp-page="./ListaMascotas" class="btn-default">Lista de Mascotas </a>
+<a asp-page="./ListaMascotas" class="btn-default">Lista de Mascotas </a> *@
+<link rel="stylesheet" href="~/css/Estilos.css">
+<h1 class="propietarios">Detalles Mascota</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Color</th>
+            <th>Especie</th>
+            <th>Raza</th>
+            
+
+        </tr>
+    </thead>
+
+    <tr>
+
+        <td>@Model.mascota.Id</td>
+        <td>@Model.mascota.Nombre</td>
+        <td>@Model.mascota.Color</td>
+        <td>@Model.mascota.Especie</td>
+        <td>@Model.mascota.Raza</td>
+        
+
+    </tr>
+
+</table>
+<div>
+    <a asp-page="./ListaMascotas" class="btn-listado">Lista Mascota </a>
+</div>

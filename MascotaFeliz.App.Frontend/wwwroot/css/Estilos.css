@@ -155,8 +155,24 @@
     color: #009879;
 } */
 
+/* Bontones volver al listado  */
 
+.btn-listado{
 
+    font-size: 14px;
+    font-weight: bold;
+    border: solid 1px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 0.5px;
+    padding: 4px 12px;
+    border-radius: 6px;
+}
+.btn-listado:hover{
+    text-decoration: none;
+    background: #009879;
+    transition: 0.7s;
+    color: #fff;
 
-
+}
 
