@@ -80,7 +80,7 @@ namespace MascotaFeliz.App.Persistencia
             }
             return mascotaEncontrado;
         }    
-        public Dueno AsignarDueno(int indMascota, int idDueno) {
+        public Dueno AsignarDueno(int idMascota, int idDueno) {
             var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(m => m.Id == idMascota);
             if(mascotaEncontrado != null)
             {
