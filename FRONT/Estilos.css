@@ -421,6 +421,7 @@ header {
 /* ==> fin css index.html <== */
 .registro {
     position: absolute;
+    opacity: 0.9;
     left: 490px;
     width: 400px;
     background: #24303c;
