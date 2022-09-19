@@ -148,3 +148,17 @@
 
 }
 
+/* index cshtml */
+.text-center{
+    display: absolute;
+    color: #ef8354;
+    margin-top: 100px;
+}
+#particles-js{
+   
+    margin-top: 67px;
+    height: 100%;
+    position: fixed;
+    
+}
+
