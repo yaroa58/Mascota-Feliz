@@ -18,11 +18,11 @@ namespace MascotaFeliz.App.Consola
             Console.WriteLine("Hola amigos vamos a empezar a trabajar con las tablas");
                        
             //ListarDuenosFiltro();      
-            // AddDueno();
-            //BuscarDueno(2);
-            // addMascota();
+            AddDueno();
+            BuscarDueno(2);
+            addMascota();
             //ListarVeterinariosFiltro();
-            // AddVeterinario();
+            AddVeterinario();
             //BuscarVeterinario(1);
             //AddHistoria();
             //BuscarMascota(2);

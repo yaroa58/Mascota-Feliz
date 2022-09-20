@@ -7,7 +7,7 @@
 }
 
 /* body {
-    background: #a8ff78;
+    background:  #78ffd6;
     background: -webkit-linear-gradient(to left, #78ffd6, #a8ff78);
     background: linear-gradient(to left, #78ffd6, #a8ff78);
     font-family: 'Poppins', sans-serif;
@@ -95,7 +95,7 @@
     min-width: 400px;
     border-radius: 7px 7px 0 0;
     overflow: hidden;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0,15);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 1,15);
 }
 
 .table thead tr{
@@ -162,3 +162,55 @@
     
 }
 
+/* //formulario de registro dueño */
+.registro {
+    position: absolute;
+    opacity: 0.9;
+    left: 490px;
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
+    box-shadow: 7px 13px 37px #000;
+}
+.formulario{
+    width: 100%;
+    margin: auto;
+  
+}
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #a8ff78;
+    font-size: 15px;
+    color: aliceblue;
+}
+.registro .boton {
+    width: 100%;
+    background: linear-gradient(to left, #78ffd6, #a8ff78);
+    border: none;
+    padding: 12px;
+    color: #000;
+    margin: 16px 0;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+
+}
+.registro .cuenta {
+    color: #fff;
+    margin: auto;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+
+}

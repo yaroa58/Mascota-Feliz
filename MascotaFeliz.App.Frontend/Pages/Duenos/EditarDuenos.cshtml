@@ -3,11 +3,11 @@
 @{
     int duenoId = Model.dueno.Id;
 }
-<h2> Agregar o editar Dueños </h2>
-
-<form method= "post" >
-    <div class= "form group">
-        <input type="hidden" asp-for = "dueno.Id" />
+<h2 class="propietarios"> Registro de Propietarios </h2>
+@* 
+<form method="post">
+    <div class="form group">
+        <input type="hidden" asp-for="dueno.Id" />
         <label asp-for="dueno.Nombres"></label>
         <input asp-for="dueno.Nombres" class="form-control">
         <label asp-for="dueno.Apellidos"></label>
@@ -23,4 +23,28 @@
     </div>
 </form>
 
+<a asp-page="./listaDuenos" class="btn-default">Lista de Dueños </a> *@
+@* ///////////////////////////////////////////////////////////////////////////////////////// *@
+
+
+<form method="post">
+    <div id="particles-js"></div>
+    <section class="registro">
+        <div class="formulario">
+            <h4>Formulario de Registro</h4>
+            <input type="hidden" asp-for="dueno.Id" />
+            <input class="controls" asp-for="dueno.Nombres" placeholder="Nombres">
+            <input class="controls" asp-for="dueno.Apellidos" placeholder="Apellidos">
+            <input class="controls" asp-for="dueno.Direccion" placeholder="Direccion">
+            <input class="controls" asp-for="dueno.Telefono" placeholder="Telefono">
+            <input class="controls"  asp-for="dueno.Correo" placeholder="Correo">
+
+
+            <button type="submit" class="boton">Registrar</button>
+
+        </div>
+    </section>
+</form>
+<script src="~/js/JS/particles.js"></script>
+<script src="~/js/JS/app.js"></script>
 <a asp-page="./listaDuenos" class="btn-default">Lista de Dueños </a>
