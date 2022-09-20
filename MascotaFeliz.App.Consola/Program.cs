@@ -18,11 +18,11 @@ namespace MascotaFeliz.App.Consola
             Console.WriteLine("Hola amigos vamos a empezar a trabajar con las tablas");
                        
             //ListarDuenosFiltro();      
-            AddDueno();
+            // AddDueno();
             //BuscarDueno(2);
-            addMascota();
+            // addMascota();
             //ListarVeterinariosFiltro();
-            AddVeterinario();
+            // AddVeterinario();
             //BuscarVeterinario(1);
             //AddHistoria();
             //BuscarMascota(2);
@@ -149,7 +149,7 @@ namespace MascotaFeliz.App.Consola
         // }
         private static void AsignarDueno()
             {
-        var dueno = _repoMascota.AsignarDueno(2, 3);
+        var dueno = _repoMascota.AsignarDueno(3, 6);
         Console.WriteLine(dueno.Nombres + " " + dueno.Apellidos);
         }
         
