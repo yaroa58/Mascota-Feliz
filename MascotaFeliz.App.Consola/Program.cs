@@ -149,7 +149,7 @@ namespace MascotaFeliz.App.Consola
         // }
         private static void AsignarDueno()
             {
-        var dueno = _repoMascota.AsignarDueno(1, 2);
+        var dueno = _repoMascota.AsignarDueno(2, 3);
         Console.WriteLine(dueno.Nombres + " " + dueno.Apellidos);
         }
         
