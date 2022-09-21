@@ -351,3 +351,4 @@ D:\Mascota-Feliz\Mascotafeliz.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\M
 D:\Mascota-Feliz\Mascotafeliz.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\EditarVeterinarios.cshtml.g.cs
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\EditarVeterinarios.cshtml.g.cs
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\Asignaciones\Asignar.cshtml.g.cs
+D:\Mascota-Feliz\Mascotafeliz.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\Asignaciones\Asignar.cshtml.g.cs
