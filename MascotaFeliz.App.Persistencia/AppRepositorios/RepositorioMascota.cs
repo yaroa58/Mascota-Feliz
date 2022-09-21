@@ -93,5 +93,22 @@ namespace MascotaFeliz.App.Persistencia
             }
             return null;
         }
+        public Veterinario AsignarVeterinario(int idMascota, int idVeterinario)
+        {
+
+            var mascotaEncontrado=_appContext.Mascotas.FirstOrDefault(m => m.Id == idMascota);
+             if(mascotaEncontrado != null)
+            {
+                var veterinarioEncontrado = _appContext.Veterinarios.FirstOrDefault(v => v.Id == idVeterinario);
+                if(veterinarioEncontrado != null){
+                    mascotaEncontrado.Veterinario = veterinarioEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return veterinarioEncontrado;
+            }
+            return null;
+
+
+        }
     }
 }
