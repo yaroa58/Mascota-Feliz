@@ -1,0 +1,37 @@
+﻿@* @page
+@model MascotaFeliz.App.Frontend.Pages.AsignarModel
+@{
+    ViewData["Title"] = "Asignaciones Mascota";
+    int mascotaId = Model.Mascota.Id;
+}
+
+<div class="registros">
+    <h3 class="asignaciones">Asignar Mascota</h3>
+    <p class="sub-asignaciones">Ingresa los datos a resgitrar </p>
+    <form class="formulario-mascota" autocomplete="off" method="post">
+        <input type="hidden" asp-for="Mascota.Id" />
+        <input type="hidden" asp-for="Mascota.Nombre" value="@Model.Mascota.Nombre" />
+        <input type="hidden" asp-for="Mascota.Color" value="@Model.Mascota.Nombre" />
+        <input type="hidden" asp-for="Mascota.Especie" value="@Model.Mascota.Especie" />
+        <input type="hidden" asp-for="Mascota.Raza" value="@Model.Mascota.Raza" />
+        <div class="row">
+            <div class="nombre-mascota">
+                <label for="nombre" class="nombre-mascota1">Nombre</label>
+                <input type="text" class="form-control" asp-for="Mascota.Nombre" id="nombre" disabled readonly>
+            </div>
+        </div>
+        <div class="nombre-mascota">
+            <label for="dueno" class="form-label">Propietario</label>
+            <select class="form-control" id="propietario" asp-form="Mascota.Dueno.Id" name="duenoId"
+                aria-label="Default select example">
+                <option value="0"></option>
+                @foreach (var dueno in Model.listaDuenos)
+                {
+                    <option value="@dueno.Id">@dueno.Nombres @dueno.Apellidos</option>
+                }
+                
+            </select>
+            <button type="submit" class="boton">Registrar</button>
+        </div>
+    </form>
+</div> *@
