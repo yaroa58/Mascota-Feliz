@@ -11,6 +11,7 @@
                 <th>Color</th>
                 <th>Especie</th>
                 <th>Raza</th>
+                <th>Propietario</th>
                 <th>Detalles</th>
                 <th>Edición de datos</th>
             </tr>
@@ -25,7 +26,11 @@
             <td>@mascota.Color</td>
             <td>@mascota.Especie</td>
             <td>@mascota.Raza</td>
-           
+            <td>
+                <select>
+                    <option value="multiple"><a asp-page="./../listaDuenos" ></a></option>                    
+                </select>
+            </td>
            
             <td>
                 <a class = "btn-listado" asp-page="./DetallesMascotas" asp-route-mascotaId="@mascota.Id">
