@@ -151,7 +151,7 @@ header {
     position: absolute;
     width: 350px;
     right: 0%;
-    top:33%;
+    top:32%;
     z-index: 1;
     
     
@@ -197,7 +197,7 @@ header {
 
 /* section  2 persona que trabajrapa wl video  */
 .video{
-    background: linear-gradient(to right,#ef8354,#F6A126);
+    background: #ef8354;
     position: relative;
     border-radius: 2px;
     
@@ -287,21 +287,21 @@ header {
     animation-delay: 4s;
 }
 
-.burbujas:nth-child(9){
+/* .burbujas:nth-child(9){
     width: 30px;
     height: 30px;
     left: 100%;
     animation-duration: 3s;
     animation-delay: 1s;
-}
+} */
 
-.burbujas:nth-child(10){
+/* .burbujas:nth-child(10){
     width: 40px;
     height: 40px;
     left: 120%;
     animation-duration: 3s;
     animation-delay: 2s;
-}
+} */
 
 
 @keyframes burbujas{
