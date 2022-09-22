@@ -3,9 +3,9 @@
 @{
     int mascotaId = Model.mascota.Id;
 }
-<h2> Agregar o editar Mascotas </h2>
+<h2 class="propietarios"> Editar Mascotas </h2>
 
-<form method= "post" >
+@* <form method= "post" >
     <div class= "form group">
         <input type="hidden" asp-for = "mascota.Id" />
         <label asp-for="mascota.Nombre"></label>
@@ -21,4 +21,30 @@
     </div>
 </form>
 
-<a asp-page="./listaMascotas" class="btn-default">Lista de Mascotas </a>
+<a asp-page="./listaMascotas" class="btn-default">Lista de Mascotas </a> *@
+
+@* /////////////////////////////////////////////////////////// *@
+<body class="Back">
+    
+
+<form method="post">
+    <div id="particles-js"></div>
+    <section class="registro">
+        <div class="formulario">
+            <h4>Formulario de Registro</h4>
+            <input type="hidden" asp-for="mascota.Id" />
+            <input class="controls" asp-for="mascota.Nombre" placeholder="Nombres">
+            <input class="controls" asp-for="mascota.Color" placeholder="Color">
+            <input class="controls" asp-for="mascota.Especie" placeholder="Especie">
+            <input class="controls" asp-for="mascota.Raza" placeholder="Raza">
+            
+            <button type="submit" class="boton">Registrar</button>
+            <a asp-page="./listaMascotas" class="boton-regresar">Regresar </a>
+
+        </div>
+    </section>
+</form>
+<script src="~/js/JS_copy/particles.js"></script>
+<script src="~/js/JS_copy/app.js"></script>
+
+</body>
