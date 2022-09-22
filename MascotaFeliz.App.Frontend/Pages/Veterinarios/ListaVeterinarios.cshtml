@@ -9,8 +9,9 @@
             <tr>
                 <th>Tajeta Profesional</th>
                 <th>Nombre</th>
-                <th>Apeliidos</th>
+                <th>Apellidos</th>
                 <th>Detalles</th>
+                <th>Edición de datos</th>
             </tr>
     </thead>
     @foreach (var veterinario in Model.listaVeterinarios)
@@ -27,7 +28,7 @@
                 </a>
             </td>
             <td> 
-                 <a class="btn btn-primary table-btn" asp-page="./EditarVeterinarios" asp-route-veterinarioId="@veterinario.Id">
+                 <a class="btn-listado" asp-page="./EditarVeterinarios" asp-route-veterinarioId="@veterinario.Id">
                 Editar 
                  </a>
             </td>
