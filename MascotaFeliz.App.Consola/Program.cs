@@ -11,7 +11,7 @@ namespace MascotaFeliz.App.Consola
         private static IRepositorioDueno _repoDueno = new RepositorioDueno(new Persistencia.AppContext());
         private static IRepositorioVeterinario _repoVeterinario = new RepositorioVeterinario(new Persistencia.AppContext());
         private static IRepositorioMascota _repoMascota = new RepositorioMascota(new Persistencia.AppContext());
-        private static IRepositorioHistoria _repoHistoria = new RepositorioHistoria(new Persistencia.AppContext());
+        // private static IRepositorioHistoria _repoHistoria = new RepositorioHistoria(new Persistencia.AppContext());
         // private static IRepositorioVisitaPyP _repoVisitaPyP = new RepositorioVisitaPyP(new Persistencia.AppContext());
         static void Main(string[] args)
         {
@@ -30,7 +30,7 @@ namespace MascotaFeliz.App.Consola
             //AsignarVisitaPyP(1);
             //  AsignarDueno();
             // AsignarVeterinario();
-            ListarHistoriasFiltro();
+            // ListarHistoriasFiltro();
             
 
         }
@@ -78,7 +78,7 @@ namespace MascotaFeliz.App.Consola
         {
             var historia = new Historia
             {
-                FechaInicial = new DateTime(1990, 04, 12)
+                FechaInicial = new String("1990, 04, 12")
                 
             };
             _repoHistoria.AddHistoria(historia);
@@ -105,22 +105,22 @@ namespace MascotaFeliz.App.Consola
 
         private static void ListarDuenosFiltro()
         {
-            var duenosM = _repoDueno.GetDuenosPorFiltro("nar");
+            var duenosM = _repoDueno.GetDuenosPorFiltro("a");
             foreach (Dueno p in duenosM)
             {
                 Console.WriteLine(p.Nombres + " " + p.Apellidos);
             }
 
         }
-           private static void ListarHistoriasFiltro()
-        {
-            var historiasM = _repoDueno.GetHistoriasPorFiltro("nar");
-            foreach (Historia p in historiasM)
-            {
-                Console.WriteLine(p.FechaInicial + " " + p.Id);
-            }
+        //    private static void ListarHistoriasFiltro()
+        // {
+        //     var historiasM = _repoDueno.GetHistoriasPorFiltro("nar");
+        //     foreach (Historia p in historiasM)
+        //     {
+        //         Console.WriteLine(p.FechaInicial + " " + p.Id);
+        //     }
 
-        }
+        // }
         
 
         private static void ListarVeterinariosFiltro()
