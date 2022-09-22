@@ -105,6 +105,9 @@ using MascotaFeliz.App.Frontend;
                 __tagHelperExecutionContext.AddTagHelperAttribute(__tagHelperAttribute_0);
 #nullable restore
 #line 10 "D:\Mascota-Feliz\Mascotafeliz.app.frontend\Pages\Mascotas\EditarMascotas.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8f3389f0c5b6cf26361d4fe340283ecf823150b6
+=======
 >>>>>>> 8f3389f0c5b6cf26361d4fe340283ecf823150b6
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.mascota.Id);
 
@@ -167,6 +170,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
 #nullable restore
 #line 12 "D:\Mascota-Feliz\Mascotafeliz.app.frontend\Pages\Mascotas\EditarMascotas.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8f3389f0c5b6cf26361d4fe340283ecf823150b6
+=======
 >>>>>>> 8f3389f0c5b6cf26361d4fe340283ecf823150b6
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.mascota.Nombre);
 
@@ -231,6 +237,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
 #nullable restore
 #line 14 "D:\Mascota-Feliz\Mascotafeliz.app.frontend\Pages\Mascotas\EditarMascotas.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8f3389f0c5b6cf26361d4fe340283ecf823150b6
+=======
 >>>>>>> 8f3389f0c5b6cf26361d4fe340283ecf823150b6
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.mascota.Color);
 
@@ -295,6 +304,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
 #nullable restore
 #line 16 "D:\Mascota-Feliz\Mascotafeliz.app.frontend\Pages\Mascotas\EditarMascotas.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8f3389f0c5b6cf26361d4fe340283ecf823150b6
+=======
 >>>>>>> 8f3389f0c5b6cf26361d4fe340283ecf823150b6
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.mascota.Especie);
 
@@ -359,6 +371,9 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
 #nullable restore
 #line 18 "D:\Mascota-Feliz\Mascotafeliz.app.frontend\Pages\Mascotas\EditarMascotas.cshtml"
+<<<<<<< HEAD
+>>>>>>> 8f3389f0c5b6cf26361d4fe340283ecf823150b6
+=======
 >>>>>>> 8f3389f0c5b6cf26361d4fe340283ecf823150b6
 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvider.CreateModelExpression(ViewData, __model => __model.mascota.Raza);
 
