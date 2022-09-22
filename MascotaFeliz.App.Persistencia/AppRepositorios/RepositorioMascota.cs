@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using MascotaFeliz.App.Dominio;
+using MascotaFeliz.App.Persistencia;
 using Microsoft.EntityFrameworkCore;
 
 namespace MascotaFeliz.App.Persistencia
@@ -39,10 +40,10 @@ namespace MascotaFeliz.App.Persistencia
             _appContext.SaveChanges();
         }
 
-       public IEnumerable<Mascota> GetAllMascotas()
-        {
-            return GetAllMascotas_();
-        }
+    //    public IEnumerable<Mascota> GetAllMascotas()
+    //     {
+    //         return GetAllMascotas_();
+    //     }
 
         public IEnumerable<Mascota> GetMascotasPorFiltro(string filtro)
         {
@@ -56,16 +57,18 @@ namespace MascotaFeliz.App.Persistencia
             }
             return mascotas;
         }
-
-        public IEnumerable<Mascota> GetAllMascotas_()
+            public IEnumerable<Mascota> GetAllMascotas()
         {
-            return _appContext.Mascotas;
-        }
+            return _appContext.Mascotas.Include("Dueno").Include("Veterinario").Include("Historia");
+        }
 
-        public Mascota GetMascota(int idMascota)
-        {
-            return _appContext.Mascotas.FirstOrDefault(d => d.Id == idMascota);
-        }
+      
+            public Mascota GetMascota(int idMascota)
+            {
+            return _appContext.Mascotas.Include("Dueno").Include("Veterinario").Include("Historia").FirstOrDefault(d => d.Id == idMascota);
+            }
+
+      
 
         public Mascota UpdateMascota(Mascota mascota)
         {

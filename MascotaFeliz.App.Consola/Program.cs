@@ -11,7 +11,7 @@ namespace MascotaFeliz.App.Consola
         private static IRepositorioDueno _repoDueno = new RepositorioDueno(new Persistencia.AppContext());
         private static IRepositorioVeterinario _repoVeterinario = new RepositorioVeterinario(new Persistencia.AppContext());
         private static IRepositorioMascota _repoMascota = new RepositorioMascota(new Persistencia.AppContext());
-        // private static IRepositorioHistoria _repoHistoria = new RepositorioHistoria(new Persistencia.AppContext());
+        private static IRepositorioHistoria _repoHistoria = new RepositorioHistoria(new Persistencia.AppContext());
         // private static IRepositorioVisitaPyP _repoVisitaPyP = new RepositorioVisitaPyP(new Persistencia.AppContext());
         static void Main(string[] args)
         {
@@ -29,7 +29,8 @@ namespace MascotaFeliz.App.Consola
             //ListarMascotas();
             //AsignarVisitaPyP(1);
             //  AsignarDueno();
-            AsignarVeterinario();
+            // AsignarVeterinario();
+            ListarHistoriasFiltro();
             
 
         }
@@ -73,15 +74,15 @@ namespace MascotaFeliz.App.Consola
             _repoMascota.AddMascota(mascota);
         }
         
-        // private static void AddHistoria()
-        // {
-        //     var historia = new Historia
-        //     {
-        //         FechaInicial = new DateTime(1990, 04, 12)
+        private static void AddHistoria()
+        {
+            var historia = new Historia
+            {
+                FechaInicial = new DateTime(1990, 04, 12)
                 
-        //     };
-        //     _repoHistoria.AddHistoria(historia);
-        // }
+            };
+            _repoHistoria.AddHistoria(historia);
+        }
 
 
         private static void BuscarDueno(int idDueno)
@@ -111,6 +112,16 @@ namespace MascotaFeliz.App.Consola
             }
 
         }
+           private static void ListarHistoriasFiltro()
+        {
+            var historiasM = _repoDueno.GetHistoriasPorFiltro("nar");
+            foreach (Historia p in historiasM)
+            {
+                Console.WriteLine(p.FechaInicial + " " + p.Id);
+            }
+
+        }
+        
 
         private static void ListarVeterinariosFiltro()
         {

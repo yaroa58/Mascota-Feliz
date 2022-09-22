@@ -30,6 +30,8 @@
             <th>Color</th>
             <th>Especie</th>
             <th>Raza</th>
+            <th>Dueño</th>
+            <th>Veterinario</th>
             
 
         </tr>
@@ -42,6 +44,9 @@
         <td>@Model.mascota.Color</td>
         <td>@Model.mascota.Especie</td>
         <td>@Model.mascota.Raza</td>
+        <td>@Model.mascota.Dueno.Nombres @Model.mascota.Dueno.Apellidos</td>
+        <td>@Model.mascota.Veterinario.Nombres @Model.mascota.Veterinario.Apellidos</td>
+
         
 
     </tr>
