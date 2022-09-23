@@ -3,7 +3,7 @@
 @{
     int veterinadioId=Model.veterinario.Id;
 }
-<h2>agregar o editar veterinarios</h2>
+@* <h2>agregar o editar veterinarios</h2>
 
 <form method="post">
 <div class= "form-group">
@@ -23,4 +23,31 @@
 <button type="submit" class="btn btn-primary">Grabar</button>
 </div>
 </form>
-<a asp-page="./ListaVeterinarios" class= "btn-default">Lista de Veterinarios</a> 
+<a asp-page="./ListaVeterinarios" class= "btn-default">Lista de Veterinarios</a>  *@
+
+<body class="Back_veterinario">
+
+<form method="post">
+    <div id="particles-js"></div>
+    <section class="registro">
+        <div class="formulario">
+            <h4>Formulario de Registro</h4>
+            <input type="hidden" asp-for="veterinario.Id" />
+            <input class="controls" asp-for="veterinario.Nombres" placeholder="Nombres">
+            <input class="controls" asp-for="veterinario.Apellidos" placeholder="Apellidos">
+            <input class="controls" asp-for="veterinario.Direccion" placeholder="Direccion">
+            <input class="controls" asp-for="veterinario.Telefono" placeholder="Telefono">
+            <input class="controls"  asp-for="veterinario.TarjetaProfesional" placeholder="TarjetaProfesional">
+
+
+            <button type="submit" class="boton">Registrar</button>
+
+        </div>
+    </section>
+</form>
+<script src="~/js/JS/particles.js"></script>
+<script src="~/js/JS/app.js"></script>
+    <div id="video-slow">
+        <video src="~/imgs/perritos.mp4" autoplay muted loop width="600" height="480" class="slow1"></video>
+    </div>    
+</body>

@@ -234,7 +234,7 @@
 .slow1{
     margin-top: 70px;
 }
-/* //////////////// Editar Mascotas//////////////// */
+/* //////////////// back ground editar dueños mascota y veterinario//////////////// */
 .Back{
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
 }
@@ -244,7 +244,7 @@
     background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
 
 }
-/* .boton-regresar{
-    text-decoration: none;
-} */
+.Back_veterinario{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(162,102,246,1) 0%, rgba(203,159,249,1) 90% );
+}
 
