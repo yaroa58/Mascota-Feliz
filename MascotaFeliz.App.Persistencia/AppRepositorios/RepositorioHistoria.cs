@@ -79,5 +79,23 @@ namespace MascotaFeliz.App.Persistencia
         //     }
         //     return historias;
         // }
+        public Historia AsignarVisitaPyP(Historia historia, VisitaPyP visitaPyP)
+        {
+            var historiaEncontrada = _appContext.Historias.FirstOrDefault(h => h.Id == historia.Id);
+            if (historiaEncontrada != null)
+            {
+                var visitaPyPEncontrada = _appContext.VisitasPyP.FirstOrDefault(v => v.Id == visitaPyP.Id);
+                if ( visitaPyPEncontrada == null)
+                {
+                  historiaEncontrada.VisitasPyP.Add(visitaPyPEncontrada);
+                  _appContext.SaveChanges();
+                }
+                return historiaEncontrada;
+            }
+            return null;
+        }
+
     }
+
+    
 }

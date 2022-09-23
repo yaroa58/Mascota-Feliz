@@ -14,6 +14,7 @@ namespace MascotaFeliz.App.Persistencia
         Historia UpdateHistoria (Historia historia);
         Historia GetHistoria (int IdHistoria);
         // IEnumerable<Historia> GetHistoriasPorFiltro(String filtro);
+        Historia AsignarVisitaPyP(Historia historia, VisitaPyP visitaPyP);
 
     }
 

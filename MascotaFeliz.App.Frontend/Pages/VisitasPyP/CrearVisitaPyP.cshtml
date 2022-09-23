@@ -1,0 +1,41 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.CrearVisitaPyPModel
+@{
+}
+
+<form class="caja10" method="post">
+    <select  class="inputtxt" asp-for="idMascota">
+        <option value="-2">-Mascota-</option>
+        @foreach (var x in Model.ListaMascotas)
+        {
+            <option value="@x.Id">@x.Id @x.Nombre </option>
+
+        }
+
+    </select>
+    <select  class="inputtxt" asp-for="visitaPyP.IdVeterinario">
+        <option value="-2">-Veterinario-</option>
+        @foreach (var x in Model.ListaVeterinario)
+        {
+            <option value="@x.Id"> -@x.Nombres @x.Apellidos-</option>
+
+        }
+
+
+    </select>
+    <input type="hidden" asp-for="visitaPyP.Id">
+    <input class="inputtxt" type="date"  asp-for="visitaPyP.FechaVisita" >
+    <input class="inputtxt"  asp-for="visitaPyP.Temperatura"  placeholder="temperatura ">
+    <input class="inputtxt"  asp-for="visitaPyP.Peso" placeholder="peso ">
+    <input class="inputtxt"  asp-for="visitaPyP.FrecuenciaRespiratoria" placeholder="Frecuencia Respiratoria ">
+    <input class="inputtxt"  asp-for="visitaPyP.FrecuenciaCardiaca" placeholder="Frecuencia Cardiaca">
+    <input class="inputtxt"  asp-for="visitaPyP.EstadoAnimo" placeholder="Estado de Animo ">
+    <input class="inputtxt"  asp-for="visitaPyP.Recomendaciones" placeholder="Recomendaciones">
+
+
+
+
+
+
+    <button class="boton" id="btnRegistrar" type="submit">Registrar</button>
+</form>

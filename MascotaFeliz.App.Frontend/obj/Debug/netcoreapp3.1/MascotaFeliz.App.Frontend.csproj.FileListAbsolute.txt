@@ -352,3 +352,8 @@ D:\Mascota-Feliz\Mascotafeliz.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\V
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\EditarVeterinarios.cshtml.g.cs
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\Asignaciones\Asignar.cshtml.g.cs
 D:\Mascota-Feliz\Mascotafeliz.app.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\Asignaciones\Asignar.cshtml.g.cs
+C:\Users\Carlos Correa\Videos\Mascota-Feliz\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Duenos\EditarDuenos.cshtml.g.cs
+C:\Users\Carlos Correa\Videos\Mascota-Feliz\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\Asignaciones\Asignar.cshtml.g.cs
+C:\Users\Carlos Correa\Videos\Mascota-Feliz\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\EditarMascotas.cshtml.g.cs
+C:\Users\Carlos Correa\Videos\Mascota-Feliz\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\EditarVeterinarios.cshtml.g.cs
+C:\Users\Carlos Correa\Videos\Mascota-Feliz\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\VisitasPyP\CrearVisitaPyP.cshtml.g.cs
