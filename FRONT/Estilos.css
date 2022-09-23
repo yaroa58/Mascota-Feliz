@@ -212,25 +212,28 @@ header {
 /* section  2 persona que trabajrapa wl video  */
 .video {
     background: #ef8354;
-    /* position: relative; */
+ 
     border-radius: 2px;
     display: flex;
     
 }
 .v-1{
+    position: relative;
     margin-left: 25px;
     display: flex;
+    
+  
 }
 
 
-.video .burbujas {
+.video  .burbujas {
 
     width: 80px;
     height: 80px;
     border-radius: 50%;
     background: #f3bf75;
     opacity: .10;
-    position: absolute;
+    position: fixed;
     bottom: -150;
     left: 5%;
 
@@ -321,7 +324,18 @@ header {
 }
 /* ///////////mapa///////////// */
 
+.titulo_mapa{
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+  
+}
 
+.mapa_contacto{
+    text-align: center;
+    margin-left: 25px;
+}
 
  .contact{
     margin-top: 27px;
@@ -415,8 +429,8 @@ header {
     background-color: #2e2e2e;
 }
 .slice3_1 .slice3{
-    margin-top: 25px;
-       
+    margin-top: 0;
+          
     
 }
 .slice3_1{
