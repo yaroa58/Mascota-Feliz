@@ -236,9 +236,14 @@
 }
 /* //////////////// Editar Mascotas//////////////// */
 .Back{
-    background: #39829B;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
 }
 
+.Back_paginadueno{
+    
+    background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+
+}
 /* .boton-regresar{
     text-decoration: none;
 } */

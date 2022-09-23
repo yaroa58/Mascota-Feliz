@@ -3,7 +3,7 @@
 @{
     int duenoId = Model.dueno.Id;
 }
-<h2 class="propietarios"> Registro de Propietarios </h2>
+@* <h2 class="propietarios"> Registro de Propietarios </h2> *@
 @* 
 <form method="post">
     <div class="form group">
@@ -25,7 +25,7 @@
 
 <a asp-page="./listaDuenos" class="btn-default">Lista de Dueños </a> *@
 @* ///////////////////////////////////////////////////////////////////////////////////////// *@
-
+<body class="Back_paginadueno">
 
 <form method="post">
     <div id="particles-js"></div>
@@ -47,4 +47,10 @@
 </form>
 <script src="~/js/JS/particles.js"></script>
 <script src="~/js/JS/app.js"></script>
-<a asp-page="./listaDuenos" class="btn-default">Lista de Dueños </a>
+  <div id="video-slow">
+        <video src="~/imgs/slow3.mp4" autoplay muted loop width="600" height="480" class="slow1"></video>
+    </div>
+@* <a asp-page="./listaDuenos" class="btn-default">Lista de Dueños </a> *@
+
+    
+</body>
