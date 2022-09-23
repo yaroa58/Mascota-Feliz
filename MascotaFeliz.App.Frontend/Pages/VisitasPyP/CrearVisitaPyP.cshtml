@@ -3,39 +3,42 @@
 @{
 }
 
-<form class="caja10" method="post">
-    <select  class="inputtxt" asp-for="idMascota">
-        <option value="-2">-Mascota-</option>
-        @foreach (var x in Model.ListaMascotas)
-        {
-            <option value="@x.Id">@x.Id @x.Nombre </option>
+<form  method="post">
+    <div id="particles-js"></div>
+    <section class="registro">
+            <div class="formulario">
 
-        }
+                <select   asp-for="idMascota">
+                   <option value="0">-Mascota-</option>
+                     @foreach (var x in Model.ListaMascotas)
+                     {
+                         <option value="@x.Id">@x.Id @x.Nombre </option>
 
-    </select>
-    <select  class="inputtxt" asp-for="visitaPyP.IdVeterinario">
-        <option value="-2">-Veterinario-</option>
-        @foreach (var x in Model.ListaVeterinario)
-        {
-            <option value="@x.Id"> -@x.Nombres @x.Apellidos-</option>
+                     }
 
-        }
+                </select>
+                <select   asp-for="visitaPyP.IdVeterinario">
+                  <option value="-2">-Veterinario-</option>
+                     @foreach (var x in Model.ListaVeterinario)
+                     {
+                          <option value="@x.Id"> -@x.Nombres @x.Apellidos-</option>
+
+                     }
 
 
-    </select>
+              </select>
     <input type="hidden" asp-for="visitaPyP.Id">
-    <input class="inputtxt" type="date"  asp-for="visitaPyP.FechaVisita" >
-    <input class="inputtxt"  asp-for="visitaPyP.Temperatura"  placeholder="temperatura ">
-    <input class="inputtxt"  asp-for="visitaPyP.Peso" placeholder="peso ">
-    <input class="inputtxt"  asp-for="visitaPyP.FrecuenciaRespiratoria" placeholder="Frecuencia Respiratoria ">
-    <input class="inputtxt"  asp-for="visitaPyP.FrecuenciaCardiaca" placeholder="Frecuencia Cardiaca">
-    <input class="inputtxt"  asp-for="visitaPyP.EstadoAnimo" placeholder="Estado de Animo ">
-    <input class="inputtxt"  asp-for="visitaPyP.Recomendaciones" placeholder="Recomendaciones">
-
-
-
-
-
-
+    <input class="controls" type="date"  asp-for="visitaPyP.FechaVisita" >
+    <input class="controls"  asp-for="visitaPyP.Temperatura"  placeholder="temperatura ">
+    <input class="controls"  asp-for="visitaPyP.Peso" placeholder="peso ">
+    <input class="controls"  asp-for="visitaPyP.FrecuenciaRespiratoria" placeholder="Frecuencia Respiratoria ">
+    <input class="controls"  asp-for="visitaPyP.FrecuenciaCardiaca" placeholder="Frecuencia Cardiaca">
+    <input class="controls"  asp-for="visitaPyP.EstadoAnimo" placeholder="Estado de Animo ">
+    <input class="controls"  asp-for="visitaPyP.Recomendaciones" placeholder="Recomendaciones">
     <button class="boton" id="btnRegistrar" type="submit">Registrar</button>
-</form>
+      </div>
+        </section>
+    </form>
+    <script src="~/js/JS_copy/particles.js"></script>
+    <script src="~/js/JS_copy/app.js"></script>
+
