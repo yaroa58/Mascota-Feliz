@@ -17,6 +17,6 @@ namespace MascotaFeliz.App.Persistencia
         Dueno AsignarDueno(int idMascota, int idDueno);
         Veterinario AsignarVeterinario (int idMascota, int idVeterinario);
         Historia AsignarHistoria (int idMascota, int historia);
-        
+         Mascota Asignar_A_Mascota (int idmascota,int iddueno,int idveterinario,int idhistoria);
     }
 }

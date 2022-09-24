@@ -115,6 +115,34 @@ namespace MascotaFeliz.App.Persistencia
 
 
         }
+        public Mascota Asignar_A_Mascota (int idmascota,int iddueno,int idveterinario,int idhistoria)
+        {
+            var Mascota =_appContext.Mascotas.FirstOrDefault(m =>m.Id==idmascota);
+            if (Mascota!=null)
+            {
+                var Dueno=_appContext.Duenos.FirstOrDefault(d =>d.Id==iddueno);
+                if (Dueno!=null)
+                {
+                    var Veterinario=_appContext.Veterinarios.FirstOrDefault(v => v.Id==idveterinario);
+                    if (Veterinario!=null)
+                    {
+                        var Historia=_appContext.Historias.FirstOrDefault(h =>h.Id==idhistoria);
+                        if (Historia!=null)
+                        {
+                            Mascota.Dueno=Dueno;
+                            Mascota.Veterinario=Veterinario;
+                            Mascota.Historia=Historia;   
+                            _appContext.SaveChanges();                                                    
+                        }
+                    }
+                    
+                }
+            }
+            _appContext.SaveChanges();
+            return Mascota;
+            
+
+        }
         public Historia AsignarHistoria(int idMascota, int idHistoria) {
             var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(m => m.Id == idMascota);
             if(mascotaEncontrado != null)
