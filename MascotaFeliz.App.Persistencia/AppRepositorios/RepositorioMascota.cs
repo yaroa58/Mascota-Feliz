@@ -79,6 +79,8 @@ namespace MascotaFeliz.App.Persistencia
                 mascotaEncontrado.Color = mascota.Color;
                 mascotaEncontrado.Especie = mascota.Especie;
                 mascotaEncontrado.Raza = mascota.Raza;
+                mascotaEncontrado.Dueno = mascota.Dueno;
+                mascotaEncontrado.Veterinario = mascota.Veterinario;
                 _appContext.SaveChanges();
             }
             return mascotaEncontrado;
@@ -112,6 +114,19 @@ namespace MascotaFeliz.App.Persistencia
             return null;
 
 
+        }
+        public Historia AsignarHistoria(int idMascota, int idHistoria) {
+            var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(m => m.Id == idMascota);
+            if(mascotaEncontrado != null)
+            {
+                var historiaEncontrado = _appContext.Historias.FirstOrDefault(v => v.Id == idHistoria);
+                if(historiaEncontrado != null){
+                    mascotaEncontrado.Historia = historiaEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return historiaEncontrado;
+            }
+            return null;
         }
     }
 }

@@ -21,6 +21,7 @@ namespace MascotaFeliz.App.Frontend.Pages
         public VisitaPyP visitaPyP {set;get;}
         [BindProperty]
         public int idMascota {set;get;}
+         public int idHistoria{set;get;}
 
         public IEnumerable<Mascota> ListaMascotas {set;get;}
         public IEnumerable<Veterinario> ListaVeterinario {set;get;}
@@ -62,12 +63,11 @@ namespace MascotaFeliz.App.Frontend.Pages
             }
             else
             {
+               Mascota mascotaEncontrada=_repoMascota.GetMascota(idMascota);
+                Historia historiaEncontrada= _repoMascota.AsignarHistoria(idMascota, idHistoria);
                 VisitaPyP visitaCreada=_repoVisitaPyP.AddVisitaPyP(visitaPyP);
-                Mascota mascotaEncontrada=_repoMascota.GetMascota(idMascota);
-                Historia historiaEncontrada= _repoHistoria.GetHistoria(mascotaEncontrada.Historia.Id);
-                _repoHistoria.AsignarVisitaPyP(historiaEncontrada, visitaCreada);
 
-                return RedirectToPage("/ListaMascotas");
+                return RedirectToPage("/Mascotas/ListaMascotas");
 
             }
         }
