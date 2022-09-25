@@ -147,6 +147,22 @@
     color: #fff;
 
 }
+.btn-primary-table-btn{
+    font-size: 14px;
+    font-weight: bold;
+    border: solid 1px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 0.5px;
+    padding: 4px 12px;
+    border-radius: 6px;
+}
+.btn-primary-table-btn:hover{
+    text-decoration: none;
+    background: #009879;
+    transition: 0.7s;
+    color: #fff;
+}
 
 /* index cshtml */
 .text-center{
@@ -216,7 +232,7 @@
 
 }
 
-#dueno, #veterinario{
+#dueno, #veterinario, #mascota {
     width: 100%;
     background: #24303c;
     padding: 10px;

@@ -8,8 +8,8 @@
     <section class="registro">
             <div class="formulario">
 
-                <select   asp-for="idMascota">
-                   <option value="0">-Mascota-</option>
+                <select id="mascota"  asp-for="idMascota">
+                   <option value="0">Mascota</option>
                      @foreach (var x in Model.ListaMascotas)
                      {
                          <option value="@x.Id">@x.Id @x.Nombre </option>
@@ -17,8 +17,8 @@
                      }
 
                 </select>
-                <select   asp-for="visitaPyP.IdVeterinario">
-                  <option value="-2">-Veterinario-</option>
+                <select  id="veterinario" asp-for="visitaPyP.IdVeterinario">
+                  <option value="0">Veterinario</option>
                      @foreach (var x in Model.ListaVeterinario)
                      {
                           <option value="@x.Id"> -@x.Nombres @x.Apellidos-</option>
@@ -29,8 +29,8 @@
               </select>
     <input type="hidden" asp-for="visitaPyP.Id">
     <input class="controls" type="date"  asp-for="visitaPyP.FechaVisita" >
-    <input class="controls"  asp-for="visitaPyP.Temperatura"  placeholder="temperatura ">
-    <input class="controls"  asp-for="visitaPyP.Peso" placeholder="peso ">
+    <input class="controls"  asp-for="visitaPyP.Temperatura"  placeholder="Temperatura ">
+    <input class="controls"  asp-for="visitaPyP.Peso" placeholder="Peso ">
     <input class="controls"  asp-for="visitaPyP.FrecuenciaRespiratoria" placeholder="Frecuencia Respiratoria ">
     <input class="controls"  asp-for="visitaPyP.FrecuenciaCardiaca" placeholder="Frecuencia Cardiaca">
     <input class="controls"  asp-for="visitaPyP.EstadoAnimo" placeholder="Estado de Animo ">
@@ -41,6 +41,9 @@
     </form>
     <script src="~/js/JS_copy/particles.js"></script>
     <script src="~/js/JS_copy/app.js"></script>
+     <div id="video-slow">
+        <video src="~/imgs/slow.mp4" autoplay muted loop width="600" height="480" class="slow1"></video>
+    </div>
 
 </body>
 
